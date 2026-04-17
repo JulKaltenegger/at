@@ -1,0 +1,1709 @@
+<https://w3id.org/at#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://w3id.org/at#> <http://purl.org/dc/terms/contributor> <https://w3id.org/at#André_Borrmann> .
+<https://w3id.org/at#> <http://purl.org/dc/terms/contributor> <https://w3id.org/at#Ekaterina_Petrova> .
+<https://w3id.org/at#> <http://purl.org/dc/terms/contributor> <https://w3id.org/at#Pieter_Pauwels> .
+<https://w3id.org/at#> <http://purl.org/dc/terms/creator> <https://orcid.org/0000-0002-9383-7234> .
+<https://w3id.org/at#> <http://purl.org/dc/terms/description> "The Archetype Ontology for building engineering domain classifies buildings, building elements, layersets, and materials that can be assigned to existing building stock. As such, the classes offer to assign average values defined by typical building characteristics and serve as reasonable approximations when detailed building-specific data is unavailable."@en .
+<https://w3id.org/at#> <http://purl.org/dc/terms/title> "Building Archetype Ontology"@en .
+<https://w3id.org/at#> <http://purl.org/vocab/vann/preferredNamespacePrefix> "at"@en .
+<https://w3id.org/at#> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://w3id.org/at#"@en .
+<https://w3id.org/at#> <http://www.w3.org/2000/01/rdf-schema#label> "" .
+<https://w3id.org/at#> <http://www.w3.org/2002/07/owl#versionInfo> "1.0"@en .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/terms/contributor
+<http://purl.org/dc/terms/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/name
+<http://xmlns.com/foaf/0.1/name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/weblog
+<http://xmlns.com/foaf/0.1/weblog> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#gYear
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/at#constructionPeriod
+<https://w3id.org/at#constructionPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#constructionPeriod> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/at#constructionPeriod> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#Building> .
+<https://w3id.org/at#constructionPeriod> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#ConstructionPeriod> .
+# 
+# https://w3id.org/at#hasBuildingArchetype
+<https://w3id.org/at#hasBuildingArchetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#hasBuildingArchetype> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/at#hasBuildingArchetype> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#Building> .
+<https://w3id.org/at#hasBuildingArchetype> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#hasBuildingType
+<https://w3id.org/at#hasBuildingType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#hasBuildingType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/at#hasBuildingType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#Building> .
+<https://w3id.org/at#hasBuildingType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#BuildingType> .
+# 
+# https://w3id.org/at#hasElement
+<https://w3id.org/at#hasElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#hasElement> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#Building> .
+<https://w3id.org/at#hasElement> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#BuildingElement> .
+# 
+# https://w3id.org/at#hasElementArchetype
+<https://w3id.org/at#hasElementArchetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#hasElementArchetype> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#BuildingElement> .
+<https://w3id.org/at#hasElementArchetype> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#ElementArchetype> .
+# 
+# https://w3id.org/at#hasLayer
+<https://w3id.org/at#hasLayer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#hasLayer> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/at#hasLayer> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#LayerSet> .
+<https://w3id.org/at#hasLayer> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#Layer> .
+# 
+# https://w3id.org/at#hasLayerSet
+<https://w3id.org/at#hasLayerSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#hasLayerSet> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#BuildingElement> .
+<https://w3id.org/at#hasLayerSet> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#LayerSet> .
+# 
+# https://w3id.org/at#hasMaterial
+<https://w3id.org/at#hasMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#hasMaterial> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#Layer> .
+<https://w3id.org/at#hasMaterial> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#Material> .
+# 
+# https://w3id.org/at#hasReferenceLayerSet
+<https://w3id.org/at#hasReferenceLayerSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#hasReferenceLayerSet> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/at#hasReferenceLayerSet> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#LayerSet> .
+<https://w3id.org/at#hasReferenceLayerSet> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#ReferenceLayerSet> .
+# 
+# https://w3id.org/at#hasReferenceMaterial
+<https://w3id.org/at#hasReferenceMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#hasReferenceMaterial> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<https://w3id.org/at#hasReferenceMaterial> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#Material> .
+<https://w3id.org/at#hasReferenceMaterial> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#hasRenovationStatus
+<https://w3id.org/at#hasRenovationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#hasRenovationStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#Building> .
+<https://w3id.org/at#hasRenovationStatus> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#RenovationStatus> .
+# 
+# https://w3id.org/at#hasResidentialType
+<https://w3id.org/at#hasResidentialType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://w3id.org/at#hasResidentialType> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://w3id.org/at#hasBuildingType> .
+<https://w3id.org/at#hasResidentialType> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#Residential> .
+<https://w3id.org/at#hasResidentialType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#ApartmentHouse> .
+<https://w3id.org/at#hasResidentialType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#DetachedHouse> .
+<https://w3id.org/at#hasResidentialType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#GalleryHouse> .
+<https://w3id.org/at#hasResidentialType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#MaisonetteHouse> .
+<https://w3id.org/at#hasResidentialType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#SemiDetachedHouse> .
+<https://w3id.org/at#hasResidentialType> <http://www.w3.org/2000/01/rdf-schema#range> <https://w3id.org/at#TerraceHouse> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/at#isConstructedIn
+<https://w3id.org/at#isConstructedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://w3id.org/at#isConstructedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://w3id.org/at#Building> .
+<https://w3id.org/at#isConstructedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# https://w3id.org/at#ApartmentHouse
+<https://w3id.org/at#ApartmentHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#ApartmentHouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#Residential> .
+# 
+# https://w3id.org/at#Building
+<https://w3id.org/at#Building> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/at#BuildingArchetype
+<https://w3id.org/at#BuildingArchetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#BuildingArchetype> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#oneOf> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype32> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype31> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype30> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype29> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype28> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype27> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype26> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype25> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype24> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype23> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype22> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype21> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype20> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype19> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype18> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype17> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype16> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype15> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype14> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype13> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype12> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype11> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype10> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype09> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype08> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype07> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype06> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype05> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype04> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype03> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype02> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#BuildingArchetype01> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#BuildingArchetype> <http://www.w3.org/2000/01/rdf-schema#comment> "Building archetypes define and utilise core sets of representative construction structures and systems of a building type, formalised as exemplary buildings. BuildingArchetype os a ontrolled vocabulary (enumeration) containing named individuals (1..n)" .
+# 
+# https://w3id.org/at#BuildingElement
+<https://w3id.org/at#BuildingElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/at#BuildingType
+<https://w3id.org/at#BuildingType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#BuildingType> <http://www.w3.org/2000/01/rdf-schema#comment> "A building type is a categorical classification of buildings based on the occupation type and other buiding-based characteristics." .
+# 
+# https://w3id.org/at#ConstructionPeriod
+<https://w3id.org/at#ConstructionPeriod> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#ConstructionPeriod> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid34 .
+_:genid34 <http://www.w3.org/2002/07/owl#oneOf> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#2018> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#2014> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#2005> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#1991> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#1974> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#1964> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#1946> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/at#DetachedHouse
+<https://w3id.org/at#DetachedHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#DetachedHouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#Residential> .
+# 
+# https://w3id.org/at#Door
+<https://w3id.org/at#Door> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#Door> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#BuildingElement> .
+# 
+# https://w3id.org/at#DoorArchetype
+<https://w3id.org/at#DoorArchetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#DoorArchetype> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#oneOf> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype15> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype14> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype13> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype12> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype11> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype10> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype09> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype08> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype07> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype06> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype05> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype04> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype03> .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype02> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#DoorArchetype01> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#DoorArchetype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#ElementArchetype> .
+# 
+# https://w3id.org/at#ElementArchetype
+<https://w3id.org/at#ElementArchetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/at#Floor
+<https://w3id.org/at#Floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#Floor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#BuildingElement> .
+# 
+# https://w3id.org/at#FloorArchetype
+<https://w3id.org/at#FloorArchetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#FloorArchetype> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid58 .
+_:genid58 <http://www.w3.org/2002/07/owl#oneOf> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype15> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype14> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype13> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype12> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype11> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype10> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype09> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype08> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype07> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype06> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype05> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype04> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype03> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype02> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorArchetype01> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#FloorArchetype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#ElementArchetype> .
+<https://w3id.org/at#FloorArchetype> <http://www.w3.org/2002/07/owl#disjointWith> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#FloorLayerSet
+<https://w3id.org/at#FloorLayerSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#FloorLayerSet> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid74 .
+_:genid74 <http://www.w3.org/2002/07/owl#oneOf> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorLayerSet05> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorLayerSet04> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorLayerSet03> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorLayerSet02> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#FloorLayerSet01> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#FloorLayerSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#ReferenceLayerSet> .
+# 
+# https://w3id.org/at#GalleryHouse
+<https://w3id.org/at#GalleryHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#GalleryHouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#Residential> .
+# 
+# https://w3id.org/at#Layer
+<https://w3id.org/at#Layer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/at#LayerSet
+<https://w3id.org/at#LayerSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/at#MaisonetteHouse
+<https://w3id.org/at#MaisonetteHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#MaisonetteHouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#Residential> .
+# 
+# https://w3id.org/at#Material
+<https://w3id.org/at#Material> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/at#ReferenceLayerSet
+<https://w3id.org/at#ReferenceLayerSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/at#ReferenceMaterial
+<https://w3id.org/at#ReferenceMaterial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#ReferenceMaterial> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid80 .
+_:genid80 <http://www.w3.org/2002/07/owl#oneOf> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial15> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial14> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial13> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial12> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial11> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial10> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial09> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial08> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial07> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial06> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial05> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial04> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial03> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial02> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#ReferenceMaterial01> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/at#RenovationStatus
+<https://w3id.org/at#RenovationStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#RenovationStatus> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid96 .
+_:genid96 <http://www.w3.org/2002/07/owl#oneOf> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#NoRenovation> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#MinorRenovation> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#MajorRenovation> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# https://w3id.org/at#Residential
+<https://w3id.org/at#Residential> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#Residential> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#BuildingType> .
+# 
+# https://w3id.org/at#Roof
+<https://w3id.org/at#Roof> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#Roof> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#BuildingElement> .
+# 
+# https://w3id.org/at#RoofArchetype
+<https://w3id.org/at#RoofArchetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#RoofArchetype> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid100 .
+_:genid100 <http://www.w3.org/2002/07/owl#oneOf> _:genid115 .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid114 .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid113 .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid112 .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid111 .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid110 .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid108 .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid104 .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101 .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype15> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype14> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype13> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype12> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype11> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype10> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype09> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype08> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype07> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype06> .
+_:genid110 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype05> .
+_:genid111 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype04> .
+_:genid112 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype03> .
+_:genid113 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype02> .
+_:genid114 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofArchetype01> .
+_:genid115 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#RoofArchetype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#ElementArchetype> .
+# 
+# https://w3id.org/at#RoofLayerSet
+<https://w3id.org/at#RoofLayerSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#RoofLayerSet> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid116 .
+_:genid116 <http://www.w3.org/2002/07/owl#oneOf> _:genid121 .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid120 .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid119 .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid118 .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid117 .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofLayerSet05> .
+_:genid117 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofLayerSet04> .
+_:genid118 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofLayerSet03> .
+_:genid119 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofLayerSet02> .
+_:genid120 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#RoofLayerSet01> .
+_:genid121 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid116 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#RoofLayerSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#ReferenceLayerSet> .
+# 
+# https://w3id.org/at#SemiDetachedHouse
+<https://w3id.org/at#SemiDetachedHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#SemiDetachedHouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#Residential> .
+# 
+# https://w3id.org/at#TerraceHouse
+<https://w3id.org/at#TerraceHouse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#TerraceHouse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#Residential> .
+# 
+# https://w3id.org/at#Wall
+<https://w3id.org/at#Wall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#Wall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#BuildingElement> .
+# 
+# https://w3id.org/at#WallArchetype
+<https://w3id.org/at#WallArchetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#WallArchetype> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid122 .
+_:genid122 <http://www.w3.org/2002/07/owl#oneOf> _:genid137 .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid136 .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid135 .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid134 .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid133 .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid132 .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid131 .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid130 .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid129 .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid128 .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid127 .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid126 .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid125 .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid124 .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid123 .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype15> .
+_:genid123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype14> .
+_:genid124 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype13> .
+_:genid125 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype12> .
+_:genid126 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype11> .
+_:genid127 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype10> .
+_:genid128 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype09> .
+_:genid129 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype08> .
+_:genid130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype07> .
+_:genid131 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype06> .
+_:genid132 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype05> .
+_:genid133 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype04> .
+_:genid134 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype03> .
+_:genid135 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype02> .
+_:genid136 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallArchetype01> .
+_:genid137 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid122 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#WallArchetype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#ElementArchetype> .
+# 
+# https://w3id.org/at#WallLayerSet
+<https://w3id.org/at#WallLayerSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#WallLayerSet> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid138 .
+_:genid138 <http://www.w3.org/2002/07/owl#oneOf> _:genid143 .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid142 .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid141 .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid140 .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid139 .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallLayerSet05> .
+_:genid139 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallLayerSet04> .
+_:genid140 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallLayerSet03> .
+_:genid141 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallLayerSet02> .
+_:genid142 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WallLayerSet01> .
+_:genid143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid138 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#WallLayerSet> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#ReferenceLayerSet> .
+# 
+# https://w3id.org/at#Window
+<https://w3id.org/at#Window> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#Window> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#BuildingElement> .
+# 
+# https://w3id.org/at#WindowArchetype
+<https://w3id.org/at#WindowArchetype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#WindowArchetype> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid144 .
+_:genid144 <http://www.w3.org/2002/07/owl#oneOf> _:genid159 .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid158 .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid157 .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid156 .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid155 .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid154 .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid153 .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid152 .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid151 .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid150 .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid149 .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid148 .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid147 .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid146 .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid145 .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype15> .
+_:genid145 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype14> .
+_:genid146 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype13> .
+_:genid147 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype12> .
+_:genid148 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype11> .
+_:genid149 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype10> .
+_:genid150 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype09> .
+_:genid151 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype08> .
+_:genid152 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype07> .
+_:genid153 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype06> .
+_:genid154 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype05> .
+_:genid155 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype04> .
+_:genid156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype03> .
+_:genid157 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype02> .
+_:genid158 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://w3id.org/at#WindowArchetype01> .
+_:genid159 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid144 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://w3id.org/at#WindowArchetype> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/at#ElementArchetype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# https://orcid.org/0000-0002-9383-7234
+<https://orcid.org/0000-0002-9383-7234> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://orcid.org/0000-0002-9383-7234> <http://www.w3.org/2000/01/rdf-schema#comment> "Julia Kaltenegger" .
+<https://orcid.org/0000-0002-9383-7234> <http://www.w3.org/2000/01/rdf-schema#label> "Julia Kaltenegger" .
+<https://orcid.org/0000-0002-9383-7234> <http://xmlns.com/foaf/0.1/name> "Julia Kaltenegger" .
+<https://orcid.org/0000-0002-9383-7234> <http://xmlns.com/foaf/0.1/weblog> "https://linktr.ee/julkaltenegger" .
+# 
+# https://w3id.org/at#André_Borrmann
+<https://w3id.org/at#André_Borrmann> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#André_Borrmann> <http://www.w3.org/2000/01/rdf-schema#label> "André Borrmann" .
+# 
+# https://w3id.org/at#BuildingArchetype01
+<https://w3id.org/at#BuildingArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype02
+<https://w3id.org/at#BuildingArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype03
+<https://w3id.org/at#BuildingArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype04
+<https://w3id.org/at#BuildingArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype05
+<https://w3id.org/at#BuildingArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype06
+<https://w3id.org/at#BuildingArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype07
+<https://w3id.org/at#BuildingArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype08
+<https://w3id.org/at#BuildingArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype09
+<https://w3id.org/at#BuildingArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype10
+<https://w3id.org/at#BuildingArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype11
+<https://w3id.org/at#BuildingArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype12
+<https://w3id.org/at#BuildingArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype13
+<https://w3id.org/at#BuildingArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype14
+<https://w3id.org/at#BuildingArchetype14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/at#BuildingArchetype15
+<https://w3id.org/at#BuildingArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype16
+<https://w3id.org/at#BuildingArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype17
+<https://w3id.org/at#BuildingArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype18
+<https://w3id.org/at#BuildingArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype19
+<https://w3id.org/at#BuildingArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype20
+<https://w3id.org/at#BuildingArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype21
+<https://w3id.org/at#BuildingArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype22
+<https://w3id.org/at#BuildingArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype23
+<https://w3id.org/at#BuildingArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype24
+<https://w3id.org/at#BuildingArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype25
+<https://w3id.org/at#BuildingArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype26
+<https://w3id.org/at#BuildingArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype27
+<https://w3id.org/at#BuildingArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype28
+<https://w3id.org/at#BuildingArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype29
+<https://w3id.org/at#BuildingArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype30
+<https://w3id.org/at#BuildingArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype31
+<https://w3id.org/at#BuildingArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#BuildingArchetype32
+<https://w3id.org/at#BuildingArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#BuildingArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#BuildingArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype01
+<https://w3id.org/at#DoorArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype02
+<https://w3id.org/at#DoorArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype03
+<https://w3id.org/at#DoorArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype04
+<https://w3id.org/at#DoorArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype05
+<https://w3id.org/at#DoorArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype06
+<https://w3id.org/at#DoorArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype07
+<https://w3id.org/at#DoorArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype08
+<https://w3id.org/at#DoorArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype09
+<https://w3id.org/at#DoorArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype10
+<https://w3id.org/at#DoorArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype11
+<https://w3id.org/at#DoorArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype12
+<https://w3id.org/at#DoorArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype13
+<https://w3id.org/at#DoorArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype14
+<https://w3id.org/at#DoorArchetype14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype15
+<https://w3id.org/at#DoorArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype16
+<https://w3id.org/at#DoorArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype17
+<https://w3id.org/at#DoorArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype18
+<https://w3id.org/at#DoorArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype19
+<https://w3id.org/at#DoorArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype20
+<https://w3id.org/at#DoorArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype21
+<https://w3id.org/at#DoorArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype22
+<https://w3id.org/at#DoorArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype23
+<https://w3id.org/at#DoorArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype24
+<https://w3id.org/at#DoorArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype25
+<https://w3id.org/at#DoorArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype26
+<https://w3id.org/at#DoorArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype27
+<https://w3id.org/at#DoorArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype28
+<https://w3id.org/at#DoorArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype29
+<https://w3id.org/at#DoorArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype30
+<https://w3id.org/at#DoorArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype31
+<https://w3id.org/at#DoorArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#DoorArchetype32
+<https://w3id.org/at#DoorArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#DoorArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#DoorArchetype> .
+# 
+# https://w3id.org/at#Ekaterina_Petrova
+<https://w3id.org/at#Ekaterina_Petrova> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#Ekaterina_Petrova> <http://www.w3.org/2000/01/rdf-schema#label> "Ekaterina Petrova" .
+# 
+# https://w3id.org/at#FloorArchetype01
+<https://w3id.org/at#FloorArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype02
+<https://w3id.org/at#FloorArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype03
+<https://w3id.org/at#FloorArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype04
+<https://w3id.org/at#FloorArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype05
+<https://w3id.org/at#FloorArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype06
+<https://w3id.org/at#FloorArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype07
+<https://w3id.org/at#FloorArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype08
+<https://w3id.org/at#FloorArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype09
+<https://w3id.org/at#FloorArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype10
+<https://w3id.org/at#FloorArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype11
+<https://w3id.org/at#FloorArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype12
+<https://w3id.org/at#FloorArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype13
+<https://w3id.org/at#FloorArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype14
+<https://w3id.org/at#FloorArchetype14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype15
+<https://w3id.org/at#FloorArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype16
+<https://w3id.org/at#FloorArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype17
+<https://w3id.org/at#FloorArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype18
+<https://w3id.org/at#FloorArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype19
+<https://w3id.org/at#FloorArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype20
+<https://w3id.org/at#FloorArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype21
+<https://w3id.org/at#FloorArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype22
+<https://w3id.org/at#FloorArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype23
+<https://w3id.org/at#FloorArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype24
+<https://w3id.org/at#FloorArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype25
+<https://w3id.org/at#FloorArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype26
+<https://w3id.org/at#FloorArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype27
+<https://w3id.org/at#FloorArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype28
+<https://w3id.org/at#FloorArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype29
+<https://w3id.org/at#FloorArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype30
+<https://w3id.org/at#FloorArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype31
+<https://w3id.org/at#FloorArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorArchetype32
+<https://w3id.org/at#FloorArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorArchetype> .
+# 
+# https://w3id.org/at#FloorLayerSet01
+<https://w3id.org/at#FloorLayerSet01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorLayerSet01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorLayerSet> .
+# 
+# https://w3id.org/at#FloorLayerSet02
+<https://w3id.org/at#FloorLayerSet02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorLayerSet02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorLayerSet> .
+# 
+# https://w3id.org/at#FloorLayerSet03
+<https://w3id.org/at#FloorLayerSet03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorLayerSet03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorLayerSet> .
+# 
+# https://w3id.org/at#FloorLayerSet04
+<https://w3id.org/at#FloorLayerSet04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorLayerSet04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorLayerSet> .
+# 
+# https://w3id.org/at#FloorLayerSet05
+<https://w3id.org/at#FloorLayerSet05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#FloorLayerSet05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#FloorLayerSet> .
+# 
+# https://w3id.org/at#MajorRenovation
+<https://w3id.org/at#MajorRenovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/at#MinorRenovation
+<https://w3id.org/at#MinorRenovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/at#NoRenovation
+<https://w3id.org/at#NoRenovation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://w3id.org/at#Pieter_Pauwels
+<https://w3id.org/at#Pieter_Pauwels> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#Pieter_Pauwels> <http://www.w3.org/2000/01/rdf-schema#label> "Pieter Pauwels" .
+# 
+# https://w3id.org/at#ReferenceMaterial01
+<https://w3id.org/at#ReferenceMaterial01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial02
+<https://w3id.org/at#ReferenceMaterial02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial03
+<https://w3id.org/at#ReferenceMaterial03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial04
+<https://w3id.org/at#ReferenceMaterial04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial05
+<https://w3id.org/at#ReferenceMaterial05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial06
+<https://w3id.org/at#ReferenceMaterial06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial07
+<https://w3id.org/at#ReferenceMaterial07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial08
+<https://w3id.org/at#ReferenceMaterial08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial09
+<https://w3id.org/at#ReferenceMaterial09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial10
+<https://w3id.org/at#ReferenceMaterial10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial11
+<https://w3id.org/at#ReferenceMaterial11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial12
+<https://w3id.org/at#ReferenceMaterial12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial13
+<https://w3id.org/at#ReferenceMaterial13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial14
+<https://w3id.org/at#ReferenceMaterial14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#ReferenceMaterial15
+<https://w3id.org/at#ReferenceMaterial15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#ReferenceMaterial15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ReferenceMaterial> .
+# 
+# https://w3id.org/at#RoofArchetype01
+<https://w3id.org/at#RoofArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype02
+<https://w3id.org/at#RoofArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype03
+<https://w3id.org/at#RoofArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype04
+<https://w3id.org/at#RoofArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype05
+<https://w3id.org/at#RoofArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype06
+<https://w3id.org/at#RoofArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype07
+<https://w3id.org/at#RoofArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype08
+<https://w3id.org/at#RoofArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype09
+<https://w3id.org/at#RoofArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype10
+<https://w3id.org/at#RoofArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype11
+<https://w3id.org/at#RoofArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype12
+<https://w3id.org/at#RoofArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype13
+<https://w3id.org/at#RoofArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype14
+<https://w3id.org/at#RoofArchetype14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype15
+<https://w3id.org/at#RoofArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype16
+<https://w3id.org/at#RoofArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype17
+<https://w3id.org/at#RoofArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype18
+<https://w3id.org/at#RoofArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype19
+<https://w3id.org/at#RoofArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype20
+<https://w3id.org/at#RoofArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype21
+<https://w3id.org/at#RoofArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype22
+<https://w3id.org/at#RoofArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype23
+<https://w3id.org/at#RoofArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype24
+<https://w3id.org/at#RoofArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype25
+<https://w3id.org/at#RoofArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype26
+<https://w3id.org/at#RoofArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype27
+<https://w3id.org/at#RoofArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype28
+<https://w3id.org/at#RoofArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype29
+<https://w3id.org/at#RoofArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype30
+<https://w3id.org/at#RoofArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype31
+<https://w3id.org/at#RoofArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofArchetype32
+<https://w3id.org/at#RoofArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofArchetype> .
+# 
+# https://w3id.org/at#RoofLayerSet01
+<https://w3id.org/at#RoofLayerSet01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofLayerSet01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofLayerSet> .
+# 
+# https://w3id.org/at#RoofLayerSet02
+<https://w3id.org/at#RoofLayerSet02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofLayerSet02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofLayerSet> .
+# 
+# https://w3id.org/at#RoofLayerSet03
+<https://w3id.org/at#RoofLayerSet03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofLayerSet03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofLayerSet> .
+# 
+# https://w3id.org/at#RoofLayerSet04
+<https://w3id.org/at#RoofLayerSet04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofLayerSet04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofLayerSet> .
+# 
+# https://w3id.org/at#RoofLayerSet05
+<https://w3id.org/at#RoofLayerSet05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#RoofLayerSet05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#RoofLayerSet> .
+# 
+# https://w3id.org/at#WallArchetype01
+<https://w3id.org/at#WallArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype02
+<https://w3id.org/at#WallArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype03
+<https://w3id.org/at#WallArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype04
+<https://w3id.org/at#WallArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype05
+<https://w3id.org/at#WallArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype06
+<https://w3id.org/at#WallArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype07
+<https://w3id.org/at#WallArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype08
+<https://w3id.org/at#WallArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype09
+<https://w3id.org/at#WallArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype10
+<https://w3id.org/at#WallArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype11
+<https://w3id.org/at#WallArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype12
+<https://w3id.org/at#WallArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype13
+<https://w3id.org/at#WallArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype14
+<https://w3id.org/at#WallArchetype14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype15
+<https://w3id.org/at#WallArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype16
+<https://w3id.org/at#WallArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype17
+<https://w3id.org/at#WallArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype18
+<https://w3id.org/at#WallArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype19
+<https://w3id.org/at#WallArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype20
+<https://w3id.org/at#WallArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype21
+<https://w3id.org/at#WallArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype22
+<https://w3id.org/at#WallArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype23
+<https://w3id.org/at#WallArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype24
+<https://w3id.org/at#WallArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype25
+<https://w3id.org/at#WallArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype26
+<https://w3id.org/at#WallArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype27
+<https://w3id.org/at#WallArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype28
+<https://w3id.org/at#WallArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype29
+<https://w3id.org/at#WallArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype30
+<https://w3id.org/at#WallArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype31
+<https://w3id.org/at#WallArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallArchetype32
+<https://w3id.org/at#WallArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallArchetype> .
+# 
+# https://w3id.org/at#WallLayerSet01
+<https://w3id.org/at#WallLayerSet01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallLayerSet01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallLayerSet> .
+# 
+# https://w3id.org/at#WallLayerSet02
+<https://w3id.org/at#WallLayerSet02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallLayerSet02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallLayerSet> .
+# 
+# https://w3id.org/at#WallLayerSet03
+<https://w3id.org/at#WallLayerSet03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallLayerSet03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallLayerSet> .
+# 
+# https://w3id.org/at#WallLayerSet04
+<https://w3id.org/at#WallLayerSet04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallLayerSet04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallLayerSet> .
+# 
+# https://w3id.org/at#WallLayerSet05
+<https://w3id.org/at#WallLayerSet05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WallLayerSet05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WallLayerSet> .
+# 
+# https://w3id.org/at#WindowArchetype01
+<https://w3id.org/at#WindowArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype01> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype02
+<https://w3id.org/at#WindowArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype02> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype03
+<https://w3id.org/at#WindowArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype03> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype04
+<https://w3id.org/at#WindowArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype04> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype05
+<https://w3id.org/at#WindowArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype05> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype06
+<https://w3id.org/at#WindowArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype06> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype07
+<https://w3id.org/at#WindowArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype07> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype08
+<https://w3id.org/at#WindowArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype08> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype09
+<https://w3id.org/at#WindowArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype10
+<https://w3id.org/at#WindowArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype11
+<https://w3id.org/at#WindowArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype12
+<https://w3id.org/at#WindowArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype13
+<https://w3id.org/at#WindowArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype13> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype14
+<https://w3id.org/at#WindowArchetype14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype14> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype15
+<https://w3id.org/at#WindowArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype15> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype16
+<https://w3id.org/at#WindowArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype17
+<https://w3id.org/at#WindowArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype17> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype18
+<https://w3id.org/at#WindowArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype18> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype19
+<https://w3id.org/at#WindowArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype19> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype20
+<https://w3id.org/at#WindowArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype20> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype21
+<https://w3id.org/at#WindowArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype21> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype22
+<https://w3id.org/at#WindowArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype22> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype23
+<https://w3id.org/at#WindowArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype23> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype24
+<https://w3id.org/at#WindowArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype24> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype25
+<https://w3id.org/at#WindowArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype25> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype26
+<https://w3id.org/at#WindowArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype26> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype27
+<https://w3id.org/at#WindowArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype27> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype28
+<https://w3id.org/at#WindowArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype28> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype29
+<https://w3id.org/at#WindowArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype29> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype30
+<https://w3id.org/at#WindowArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype30> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype31
+<https://w3id.org/at#WindowArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype31> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#WindowArchetype32
+<https://w3id.org/at#WindowArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#WindowArchetype32> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#WindowArchetype> .
+# 
+# https://w3id.org/at#1946
+<https://w3id.org/at#1946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#1946> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ConstructionPeriod> .
+# 
+# https://w3id.org/at#1964
+<https://w3id.org/at#1964> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#1964> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ConstructionPeriod> .
+# 
+# https://w3id.org/at#1974
+<https://w3id.org/at#1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#1974> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ConstructionPeriod> .
+# 
+# https://w3id.org/at#1991
+<https://w3id.org/at#1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#1991> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ConstructionPeriod> .
+# 
+# https://w3id.org/at#2005
+<https://w3id.org/at#2005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#2005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ConstructionPeriod> .
+# 
+# https://w3id.org/at#2014
+<https://w3id.org/at#2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#2014> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ConstructionPeriod> .
+# 
+# https://w3id.org/at#2018
+<https://w3id.org/at#2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/at#2018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://w3id.org/at#ConstructionPeriod> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

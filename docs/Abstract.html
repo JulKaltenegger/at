@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ATOntology</title>
+</head>
+
+<body>
+
+<section id="abstract">
+  <h1>Abstract</h1>
+  <p>
+The Archetype Ontology for the building engineering domain provides a structured classification of buildings, building elements, layer sets, and materials. It enables the assignment of building archetypes to building instances based on shared characteristics such as construction period, building type, and location. This linkage allows missing information to be inferred from the archetype, such as typical energy consumption or thermal properties of building elements, supporting consistent analysis and comparison across datasets.</section>
+
+<section id="introduction">
+  <h1>Introduction</h1>
+
+  <p>
+  The Archetype Ontology for the building engineering domain provides a structured classification of reference buildings, building elements, layer sets, and materials. These archetypes represent typical building configurations and are defined based on shared characteristics such as construction period, building type, and geographic context.
+  A building archetype can be assigned to a specific building instance when both share similar characteristics, for example, the same construction period, building type, or country. This assignment establishes a link between the instance building and a representative reference archetype.
+  Once this link is made, additional information defined at the archetype level can be transferred to the building instance. This enables the inference of properties that may not be explicitly known for the building itself. For instance, typical energy consumption values or thermal properties (such as Rc-values) of building elements can be derived from the associated archetype.
+  In this way, the ontology supports the enrichment of incomplete building data and enables consistent estimation of performance characteristics across buildings with similar profiles.  </p>
+
+  <h2>Namespace Declarations</h2>
+
+  <table>
+    <tr>
+      <th>Prefix</th>
+      <th>Namespace</th>
+    </tr>
+    <tr>
+      <td><code>at</code></td>
+      <td><a href="https://w3id.org/at#">https://w3id.org/at#</a></td>
+    </tr>
+  </table>
+
+  <h2>Overview Diagram</h2>
+
+<img src="images/ATOntology.png" alt="AT Ontology Diagram"  style="display:block; margin:auto; max-width:80%; height:auto;">
+
+</section>
+
+<section>
+  <h2>Example Class Description</h2>
+
+  <div class="box">
+    <strong>BuildingArchetype</strong><br><br>
+    A classification representing typical building configurations.<br><br>
+
+    <strong>Example:</strong> Residential, Office, Industrial
+  </div>
+
+</section>
+
+</body>
+</html>

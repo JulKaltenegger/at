@@ -1,0 +1,2192 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#BuildingArchetype01"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype02"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype03"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype04"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype05"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype06"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype07"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype08"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype09"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype10"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype11"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype12"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype13"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype14"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype15"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype16"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype17"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype18"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype19"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype20"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype21"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype22"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype23"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype24"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype25"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype26"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype27"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype28"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype29"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype30"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype31"
+    }, {
+      "@id" : "https://w3id.org/at#BuildingArchetype32"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#RoofArchetype01"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype02"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype03"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype04"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype05"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype06"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype07"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype08"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype09"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype10"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype11"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype12"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype13"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype14"
+    }, {
+      "@id" : "https://w3id.org/at#RoofArchetype15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid116",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#RoofLayerSet01"
+    }, {
+      "@id" : "https://w3id.org/at#RoofLayerSet02"
+    }, {
+      "@id" : "https://w3id.org/at#RoofLayerSet03"
+    }, {
+      "@id" : "https://w3id.org/at#RoofLayerSet04"
+    }, {
+      "@id" : "https://w3id.org/at#RoofLayerSet05"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid122",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#WallArchetype01"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype02"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype03"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype04"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype05"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype06"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype07"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype08"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype09"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype10"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype11"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype12"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype13"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype14"
+    }, {
+      "@id" : "https://w3id.org/at#WallArchetype15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid138",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#WallLayerSet01"
+    }, {
+      "@id" : "https://w3id.org/at#WallLayerSet02"
+    }, {
+      "@id" : "https://w3id.org/at#WallLayerSet03"
+    }, {
+      "@id" : "https://w3id.org/at#WallLayerSet04"
+    }, {
+      "@id" : "https://w3id.org/at#WallLayerSet05"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid144",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#WindowArchetype01"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype02"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype03"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype04"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype05"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype06"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype07"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype08"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype09"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype10"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype11"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype12"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype13"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype14"
+    }, {
+      "@id" : "https://w3id.org/at#WindowArchetype15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#1946"
+    }, {
+      "@id" : "https://w3id.org/at#1964"
+    }, {
+      "@id" : "https://w3id.org/at#1974"
+    }, {
+      "@id" : "https://w3id.org/at#1991"
+    }, {
+      "@id" : "https://w3id.org/at#2005"
+    }, {
+      "@id" : "https://w3id.org/at#2014"
+    }, {
+      "@id" : "https://w3id.org/at#2018"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#DoorArchetype01"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype02"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype03"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype04"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype05"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype06"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype07"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype08"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype09"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype10"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype11"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype12"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype13"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype14"
+    }, {
+      "@id" : "https://w3id.org/at#DoorArchetype15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#FloorArchetype01"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype02"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype03"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype04"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype05"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype06"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype07"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype08"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype09"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype10"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype11"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype12"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype13"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype14"
+    }, {
+      "@id" : "https://w3id.org/at#FloorArchetype15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid74",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#FloorLayerSet01"
+    }, {
+      "@id" : "https://w3id.org/at#FloorLayerSet02"
+    }, {
+      "@id" : "https://w3id.org/at#FloorLayerSet03"
+    }, {
+      "@id" : "https://w3id.org/at#FloorLayerSet04"
+    }, {
+      "@id" : "https://w3id.org/at#FloorLayerSet05"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#ReferenceMaterial01"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial02"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial03"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial04"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial05"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial06"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial07"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial08"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial09"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial10"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial11"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial12"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial13"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial14"
+    }, {
+      "@id" : "https://w3id.org/at#ReferenceMaterial15"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid96",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "https://w3id.org/at#MajorRenovation"
+    }, {
+      "@id" : "https://w3id.org/at#MinorRenovation"
+    }, {
+      "@id" : "https://w3id.org/at#NoRenovation"
+    } ]
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/contributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#gYear",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://xmlns.com/foaf/0.1/weblog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "https://orcid.org/0000-0002-9383-7234",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Julia Kaltenegger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Julia Kaltenegger"
+  } ],
+  "http://xmlns.com/foaf/0.1/name" : [ {
+    "@value" : "Julia Kaltenegger"
+  } ],
+  "http://xmlns.com/foaf/0.1/weblog" : [ {
+    "@value" : "https://linktr.ee/julkaltenegger"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://purl.org/dc/terms/contributor" : [ {
+    "@id" : "https://w3id.org/at#André_Borrmann"
+  }, {
+    "@id" : "https://w3id.org/at#Ekaterina_Petrova"
+  }, {
+    "@id" : "https://w3id.org/at#Pieter_Pauwels"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "https://orcid.org/0000-0002-9383-7234"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The Archetype Ontology for building engineering domain classifies buildings, building elements, layersets, and materials that can be assigned to existing building stock. As such, the classes offer to assign average values defined by typical building characteristics and serve as reasonable approximations when detailed building-specific data is unavailable."
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Building Archetype Ontology"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@language" : "en",
+    "@value" : "at"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@language" : "en",
+    "@value" : "https://w3id.org/at#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : ""
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@language" : "en",
+    "@value" : "1.0"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#1946",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ConstructionPeriod"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#1964",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ConstructionPeriod"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#1974",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ConstructionPeriod"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#1991",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ConstructionPeriod"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#2005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ConstructionPeriod"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#2014",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ConstructionPeriod"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#2018",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ConstructionPeriod"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#André_Borrmann",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "André Borrmann"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ApartmentHouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#Residential"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#Building",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Building archetypes define and utilise core sets of representative construction structures and systems of a building type, formalised as exemplary buildings. BuildingArchetype os a ontrolled vocabulary (enumeration) containing named individuals (1..n)"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype08",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype09",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingArchetype32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/at#BuildingType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "A building type is a categorical classification of buildings based on the occupation type and other buiding-based characteristics."
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ConstructionPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid34"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DetachedHouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#Residential"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#Door",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#BuildingElement"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#ElementArchetype"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid42"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype08",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype09",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#DoorArchetype32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#DoorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#Ekaterina_Petrova",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Ekaterina Petrova"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ElementArchetype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/at#Floor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#BuildingElement"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#ElementArchetype"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid58"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype08",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype09",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorArchetype32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorLayerSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#ReferenceLayerSet"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid74"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorLayerSet01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorLayerSet02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorLayerSet03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorLayerSet04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#FloorLayerSet05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#FloorLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#GalleryHouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#Residential"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#Layer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/at#LayerSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/at#MaisonetteHouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#Residential"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#MajorRenovation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/at#Material",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/at#MinorRenovation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/at#NoRenovation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/at#Pieter_Pauwels",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Pieter Pauwels"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceLayerSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid80"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial08",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial09",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#ReferenceMaterial15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RenovationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid96"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#Residential",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#BuildingType"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#Roof",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#BuildingElement"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#ElementArchetype"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid100"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype08",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype09",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofArchetype32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofLayerSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#ReferenceLayerSet"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid116"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofLayerSet01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofLayerSet02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofLayerSet03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofLayerSet04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#RoofLayerSet05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#RoofLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#SemiDetachedHouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#Residential"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#TerraceHouse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#Residential"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#Wall",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#BuildingElement"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#ElementArchetype"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid122"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype08",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype09",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallArchetype32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallLayerSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#ReferenceLayerSet"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid138"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallLayerSet01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallLayerSet02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallLayerSet03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallLayerSet04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WallLayerSet05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WallLayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#Window",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#BuildingElement"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/at#ElementArchetype"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid144"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype03",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype04",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype05",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype06",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype07",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype08",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype09",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#WindowArchetype32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "https://w3id.org/at#WindowArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#constructionPeriod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#Building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#ConstructionPeriod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#hasBuildingArchetype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#Building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#BuildingArchetype"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#hasBuildingType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#Building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#BuildingType"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#hasElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#Building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#BuildingElement"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#hasElementArchetype",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#BuildingElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#ElementArchetype"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#hasLayer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#LayerSet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#hasLayerSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#BuildingElement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#LayerSet"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#hasMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#Layer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#Material"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#hasReferenceLayerSet",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#LayerSet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#ReferenceLayerSet"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#hasReferenceMaterial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#Material"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#ReferenceMaterial"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#hasRenovationStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#Building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#RenovationStatus"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#hasResidentialType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#Residential"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/at#ApartmentHouse"
+  }, {
+    "@id" : "https://w3id.org/at#DetachedHouse"
+  }, {
+    "@id" : "https://w3id.org/at#GalleryHouse"
+  }, {
+    "@id" : "https://w3id.org/at#MaisonetteHouse"
+  }, {
+    "@id" : "https://w3id.org/at#SemiDetachedHouse"
+  }, {
+    "@id" : "https://w3id.org/at#TerraceHouse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "https://w3id.org/at#hasBuildingType"
+  } ]
+}, {
+  "@id" : "https://w3id.org/at#isConstructedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/at#Building"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#gYear"
+  } ]
+} ]

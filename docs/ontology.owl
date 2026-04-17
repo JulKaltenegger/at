@@ -1,0 +1,2917 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/at#"
+     xml:base="https://w3id.org/at"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="https://w3id.org/at#">
+        <terms:contributor rdf:resource="https://w3id.org/at#André_Borrmann"/>
+        <terms:contributor rdf:resource="https://w3id.org/at#Ekaterina_Petrova"/>
+        <terms:contributor rdf:resource="https://w3id.org/at#Pieter_Pauwels"/>
+        <terms:creator rdf:resource="https://orcid.org/0000-0002-9383-7234"/>
+        <terms:description xml:lang="en">The Archetype Ontology for building engineering domain classifies buildings, building elements, layersets, and materials that can be assigned to existing building stock. As such, the classes offer to assign average values defined by typical building characteristics and serve as reasonable approximations when detailed building-specific data is unavailable.</terms:description>
+        <terms:title xml:lang="en">Building Archetype Ontology</terms:title>
+        <vann:preferredNamespacePrefix xml:lang="en">at</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri xml:lang="en">https://w3id.org/at#</vann:preferredNamespaceUri>
+        <rdfs:label></rdfs:label>
+        <owl:versionInfo xml:lang="en">1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/description"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/name -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/name"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/weblog -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/weblog"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#gYear -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#gYear"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/at#constructionPeriod -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#constructionPeriod">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/at#Building"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#ConstructionPeriod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/at#hasBuildingArchetype -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#hasBuildingArchetype">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/at#Building"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/at#hasBuildingType -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#hasBuildingType">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/at#Building"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#BuildingType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/at#hasElement -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#hasElement">
+        <rdfs:domain rdf:resource="https://w3id.org/at#Building"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#BuildingElement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/at#hasElementArchetype -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#hasElementArchetype">
+        <rdfs:domain rdf:resource="https://w3id.org/at#BuildingElement"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#ElementArchetype"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/at#hasLayer -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#hasLayer">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/at#LayerSet"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#Layer"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/at#hasLayerSet -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#hasLayerSet">
+        <rdfs:domain rdf:resource="https://w3id.org/at#BuildingElement"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#LayerSet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/at#hasMaterial -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#hasMaterial">
+        <rdfs:domain rdf:resource="https://w3id.org/at#Layer"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#Material"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/at#hasReferenceLayerSet -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#hasReferenceLayerSet">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/at#LayerSet"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#ReferenceLayerSet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/at#hasReferenceMaterial -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#hasReferenceMaterial">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/at#Material"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/at#hasRenovationStatus -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#hasRenovationStatus">
+        <rdfs:domain rdf:resource="https://w3id.org/at#Building"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#RenovationStatus"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/at#hasResidentialType -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/at#hasResidentialType">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/at#hasBuildingType"/>
+        <rdfs:domain rdf:resource="https://w3id.org/at#Residential"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#ApartmentHouse"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#DetachedHouse"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#GalleryHouse"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#MaisonetteHouse"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#SemiDetachedHouse"/>
+        <rdfs:range rdf:resource="https://w3id.org/at#TerraceHouse"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/at#isConstructedIn -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/at#isConstructedIn">
+        <rdfs:domain rdf:resource="https://w3id.org/at#Building"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#gYear"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/at#ApartmentHouse -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#ApartmentHouse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#Residential"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#Building -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#Building"/>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#BuildingArchetype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype01"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype02"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype03"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype04"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype05"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype06"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype07"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype08"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype09"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype10"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype11"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype12"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype13"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype14"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype15"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype16"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype17"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype18"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype19"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype20"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype21"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype22"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype23"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype24"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype25"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype26"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype27"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype28"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype29"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype30"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype31"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#BuildingArchetype32"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:comment>Building archetypes define and utilise core sets of representative construction structures and systems of a building type, formalised as exemplary buildings. BuildingArchetype os a ontrolled vocabulary (enumeration) containing named individuals (1..n)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#BuildingElement -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#BuildingElement"/>
+    
+
+
+    <!-- https://w3id.org/at#BuildingType -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#BuildingType">
+        <rdfs:comment>A building type is a categorical classification of buildings based on the occupation type and other buiding-based characteristics.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#ConstructionPeriod -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#ConstructionPeriod">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#1946"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#1964"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#1974"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#1991"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#2005"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#2014"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#2018"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#DetachedHouse -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#DetachedHouse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#Residential"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#Door -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#Door">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#BuildingElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#DoorArchetype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype01"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype02"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype03"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype04"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype05"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype06"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype07"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype08"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype09"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype10"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype11"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype12"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype13"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype14"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#DoorArchetype15"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#ElementArchetype"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#ElementArchetype -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#ElementArchetype"/>
+    
+
+
+    <!-- https://w3id.org/at#Floor -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#Floor">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#BuildingElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#FloorArchetype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype01"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype02"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype03"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype04"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype05"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype06"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype07"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype08"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype09"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype10"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype11"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype12"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype13"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype14"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorArchetype15"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#ElementArchetype"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#FloorLayerSet -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#FloorLayerSet">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorLayerSet01"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorLayerSet02"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorLayerSet03"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorLayerSet04"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#FloorLayerSet05"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#ReferenceLayerSet"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#GalleryHouse -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#GalleryHouse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#Residential"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#Layer -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#Layer"/>
+    
+
+
+    <!-- https://w3id.org/at#LayerSet -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#LayerSet"/>
+    
+
+
+    <!-- https://w3id.org/at#MaisonetteHouse -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#MaisonetteHouse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#Residential"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#Material -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#Material"/>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceLayerSet -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#ReferenceLayerSet"/>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#ReferenceMaterial">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial01"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial02"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial03"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial04"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial05"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial06"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial07"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial08"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial09"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial10"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial11"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial12"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial13"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial14"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#ReferenceMaterial15"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#RenovationStatus -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#RenovationStatus">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#MajorRenovation"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#MinorRenovation"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#NoRenovation"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#Residential -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#Residential">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#BuildingType"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#Roof -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#Roof">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#BuildingElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#RoofArchetype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype01"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype02"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype03"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype04"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype05"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype06"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype07"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype08"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype09"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype10"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype11"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype12"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype13"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype14"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofArchetype15"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#ElementArchetype"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#RoofLayerSet -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#RoofLayerSet">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofLayerSet01"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofLayerSet02"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofLayerSet03"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofLayerSet04"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#RoofLayerSet05"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#ReferenceLayerSet"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#SemiDetachedHouse -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#SemiDetachedHouse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#Residential"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#TerraceHouse -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#TerraceHouse">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#Residential"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#Wall -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#Wall">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#BuildingElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#WallArchetype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype01"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype02"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype03"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype04"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype05"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype06"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype07"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype08"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype09"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype10"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype11"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype12"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype13"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype14"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallArchetype15"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#ElementArchetype"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#WallLayerSet -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#WallLayerSet">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#WallLayerSet01"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallLayerSet02"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallLayerSet03"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallLayerSet04"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WallLayerSet05"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#ReferenceLayerSet"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#Window -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#Window">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#BuildingElement"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype -->
+
+
+    <owl:Class rdf:about="https://w3id.org/at#WindowArchetype">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype01"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype02"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype03"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype04"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype05"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype06"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype07"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype08"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype09"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype10"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype11"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype12"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype13"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype14"/>
+                    <rdf:Description rdf:about="https://w3id.org/at#WindowArchetype15"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/at#ElementArchetype"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://orcid.org/0000-0002-9383-7234 -->
+
+
+    <owl:NamedIndividual rdf:about="https://orcid.org/0000-0002-9383-7234">
+        <rdfs:comment>Julia Kaltenegger</rdfs:comment>
+        <rdfs:label>Julia Kaltenegger</rdfs:label>
+        <foaf:name>Julia Kaltenegger</foaf:name>
+        <foaf:weblog>https://linktr.ee/julkaltenegger</foaf:weblog>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#André_Borrmann -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#André_Borrmann">
+        <rdfs:label>André Borrmann</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype01 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype01">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype02 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype02">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype03 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype03">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype04 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype04">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype05 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype05">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype06 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype06">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype07 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype07">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype08 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype08">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype09 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype09">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype10 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype10">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype11 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype11">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype12 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype12">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype13 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype13">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype14 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype14"/>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype15 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype15">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype16 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype16">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype17 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype17">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype18 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype18">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype19 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype19">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype20 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype20">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype21 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype21">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype22 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype22">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype23 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype23">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype24 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype24">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype25 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype25">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype26 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype26">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype27 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype27">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype28 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype28">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype29 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype29">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype30 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype30">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype31 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype31">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#BuildingArchetype32 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#BuildingArchetype32">
+        <rdf:type rdf:resource="https://w3id.org/at#BuildingArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype01 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype01">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype02 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype02">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype03 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype03">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype04 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype04">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype05 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype05">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype06 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype06">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype07 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype07">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype08 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype08">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype09 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype09">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype10 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype10">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype11 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype11">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype12 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype12">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype13 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype13">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype14 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype14">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype15 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype15">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype16 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype16">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype17 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype17">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype18 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype18">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype19 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype19">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype20 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype20">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype21 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype21">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype22 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype22">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype23 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype23">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype24 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype24">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype25 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype25">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype26 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype26">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype27 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype27">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype28 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype28">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype29 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype29">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype30 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype30">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype31 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype31">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#DoorArchetype32 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#DoorArchetype32">
+        <rdf:type rdf:resource="https://w3id.org/at#DoorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#Ekaterina_Petrova -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#Ekaterina_Petrova">
+        <rdfs:label>Ekaterina Petrova</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype01 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype01">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype02 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype02">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype03 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype03">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype04 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype04">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype05 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype05">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype06 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype06">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype07 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype07">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype08 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype08">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype09 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype09">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype10 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype10">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype11 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype11">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype12 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype12">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype13 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype13">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype14 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype14">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype15 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype15">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype16 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype16">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype17 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype17">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype18 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype18">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype19 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype19">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype20 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype20">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype21 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype21">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype22 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype22">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype23 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype23">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype24 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype24">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype25 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype25">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype26 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype26">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype27 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype27">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype28 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype28">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype29 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype29">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype30 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype30">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype31 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype31">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorArchetype32 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorArchetype32">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorLayerSet01 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorLayerSet01">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorLayerSet02 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorLayerSet02">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorLayerSet03 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorLayerSet03">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorLayerSet04 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorLayerSet04">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#FloorLayerSet05 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#FloorLayerSet05">
+        <rdf:type rdf:resource="https://w3id.org/at#FloorLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#MajorRenovation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#MajorRenovation"/>
+    
+
+
+    <!-- https://w3id.org/at#MinorRenovation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#MinorRenovation"/>
+    
+
+
+    <!-- https://w3id.org/at#NoRenovation -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#NoRenovation"/>
+    
+
+
+    <!-- https://w3id.org/at#Pieter_Pauwels -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#Pieter_Pauwels">
+        <rdfs:label>Pieter Pauwels</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial01 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial01">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial02 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial02">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial03 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial03">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial04 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial04">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial05 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial05">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial06 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial06">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial07 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial07">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial08 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial08">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial09 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial09">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial10 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial10">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial11 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial11">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial12 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial12">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial13 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial13">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial14 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial14">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#ReferenceMaterial15 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#ReferenceMaterial15">
+        <rdf:type rdf:resource="https://w3id.org/at#ReferenceMaterial"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype01 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype01">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype02 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype02">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype03 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype03">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype04 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype04">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype05 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype05">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype06 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype06">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype07 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype07">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype08 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype08">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype09 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype09">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype10 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype10">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype11 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype11">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype12 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype12">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype13 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype13">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype14 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype14">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype15 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype15">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype16 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype16">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype17 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype17">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype18 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype18">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype19 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype19">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype20 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype20">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype21 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype21">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype22 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype22">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype23 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype23">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype24 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype24">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype25 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype25">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype26 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype26">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype27 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype27">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype28 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype28">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype29 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype29">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype30 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype30">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype31 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype31">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofArchetype32 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofArchetype32">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofLayerSet01 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofLayerSet01">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofLayerSet02 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofLayerSet02">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofLayerSet03 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofLayerSet03">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofLayerSet04 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofLayerSet04">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#RoofLayerSet05 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#RoofLayerSet05">
+        <rdf:type rdf:resource="https://w3id.org/at#RoofLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype01 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype01">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype02 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype02">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype03 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype03">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype04 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype04">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype05 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype05">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype06 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype06">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype07 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype07">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype08 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype08">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype09 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype09">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype10 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype10">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype11 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype11">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype12 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype12">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype13 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype13">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype14 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype14">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype15 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype15">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype16 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype16">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype17 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype17">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype18 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype18">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype19 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype19">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype20 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype20">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype21 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype21">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype22 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype22">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype23 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype23">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype24 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype24">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype25 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype25">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype26 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype26">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype27 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype27">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype28 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype28">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype29 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype29">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype30 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype30">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype31 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype31">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallArchetype32 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallArchetype32">
+        <rdf:type rdf:resource="https://w3id.org/at#WallArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallLayerSet01 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallLayerSet01">
+        <rdf:type rdf:resource="https://w3id.org/at#WallLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallLayerSet02 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallLayerSet02">
+        <rdf:type rdf:resource="https://w3id.org/at#WallLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallLayerSet03 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallLayerSet03">
+        <rdf:type rdf:resource="https://w3id.org/at#WallLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallLayerSet04 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallLayerSet04">
+        <rdf:type rdf:resource="https://w3id.org/at#WallLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WallLayerSet05 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WallLayerSet05">
+        <rdf:type rdf:resource="https://w3id.org/at#WallLayerSet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype01 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype01">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype02 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype02">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype03 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype03">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype04 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype04">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype05 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype05">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype06 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype06">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype07 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype07">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype08 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype08">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype09 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype09">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype10 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype10">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype11 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype11">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype12 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype12">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype13 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype13">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype14 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype14">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype15 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype15">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype16 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype16">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype17 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype17">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype18 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype18">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype19 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype19">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype20 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype20">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype21 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype21">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype22 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype22">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype23 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype23">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype24 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype24">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype25 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype25">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype26 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype26">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype27 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype27">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype28 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype28">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype29 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype29">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype30 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype30">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype31 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype31">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#WindowArchetype32 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#WindowArchetype32">
+        <rdf:type rdf:resource="https://w3id.org/at#WindowArchetype"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#1946 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#1946">
+        <rdf:type rdf:resource="https://w3id.org/at#ConstructionPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#1964 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#1964">
+        <rdf:type rdf:resource="https://w3id.org/at#ConstructionPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#1974 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#1974">
+        <rdf:type rdf:resource="https://w3id.org/at#ConstructionPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#1991 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#1991">
+        <rdf:type rdf:resource="https://w3id.org/at#ConstructionPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#2005 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#2005">
+        <rdf:type rdf:resource="https://w3id.org/at#ConstructionPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#2014 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#2014">
+        <rdf:type rdf:resource="https://w3id.org/at#ConstructionPeriod"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/at#2018 -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/at#2018">
+        <rdf:type rdf:resource="https://w3id.org/at#ConstructionPeriod"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
