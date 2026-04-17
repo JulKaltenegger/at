@@ -8,4 +8,4 @@ HTML documentation https://julkaltenegger.github.io/at/
 
 ### Core Ontology
 
-![alt text](BMP-CoreOntology-1.jpg)
+![alt text](ATOntology.png)
