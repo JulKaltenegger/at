@@ -1,2989 +1,2252 @@
 {
-  "_comment": "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org [Additional Information added by WebVOWL Exporter Version: 1.1.7]",
-  "header": {
-    "languages": [
-      "undefined",
-      "en"
-    ],
-    "baseIris": [
-      "http://www.w3.org/1999/02/22-rdf-syntax-ns",
-      "http://www.w3.org/2002/07/owl",
-      "http://www.w3.org/2000/01/rdf-schema",
-      "https://w3id.org/at",
-      "http://www.w3.org/2001/XMLSchema"
-    ],
-    "title": {
-      "en": "Building Archetype Ontology"
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "https://w3id.org/at", "http://www.w3.org/2001/XMLSchema" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "" : "https://w3id.org/at#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
     },
-    "iri": "https://w3id.org/at#",
-    "version": "1.0",
-    "author": [
-      "https://orcid.org/0000-0002-9383-7234"
-    ],
-    "description": {
-      "en": "The Archetype Ontology for building engineering domain classifies buildings, building elements, layersets, and materials that can be assigned to existing building stock. As such, the classes offer to assign average values defined by typical building characteristics and serve as reasonable approximations when detailed building-specific data is unavailable."
+    "title" : {
+      "en" : "Building Archetype Ontology"
     },
-    "labels": {},
-    "other": {
-      "creator": [
-        {
-          "identifier": "creator",
-          "language": "undefined",
-          "value": "https://orcid.org/0000-0002-9383-7234",
-          "type": "iri"
-        }
-      ],
-      "contributor": [
-        {
-          "identifier": "contributor",
-          "language": "undefined",
-          "value": "https://w3id.org/at#Ekaterina_Petrova",
-          "type": "iri"
-        }
-      ],
-      "preferredNamespacePrefix": [
-        {
-          "identifier": "preferredNamespacePrefix",
-          "language": "en",
-          "value": "at",
-          "type": "label"
-        }
-      ],
-      "preferredNamespaceUri": [
-        {
-          "identifier": "preferredNamespaceUri",
-          "language": "en",
-          "value": "https://w3id.org/at#",
-          "type": "label"
-        }
-      ],
-      "versionInfo": [
-        {
-          "identifier": "versionInfo",
-          "language": "en",
-          "value": "1.0",
-          "type": "label"
-        }
-      ],
-      "title": [
-        {
-          "identifier": "title",
-          "language": "en",
-          "value": "Building Archetype Ontology",
-          "type": "label"
-        }
-      ]
+    "iri" : "https://w3id.org/at#",
+    "version" : "1.0",
+    "author" : [ "https://orcid.org/0000-0002-9383-7234" ],
+    "description" : {
+      "en" : "The Archetype Ontology for building engineering domain classifies buildings, building elements, layersets, and materials that can be assigned to existing building stock. As such, the classes offer to assign average values defined by typical building characteristics and serve as reasonable approximations when detailed building-specific data is unavailable."
+    },
+    "labels" : { },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "https://orcid.org/0000-0002-9383-7234",
+        "type" : "iri"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "https://w3id.org/at#Ekaterina_Petrova",
+        "type" : "iri"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "https://w3id.org/at#Pieter_Pauwels",
+        "type" : "iri"
+      }, {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "https://w3id.org/at#André_Borrmann",
+        "type" : "iri"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "en",
+        "value" : "at",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "en",
+        "value" : "https://w3id.org/at#",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "en",
+        "value" : "Building Archetype Ontology",
+        "type" : "label"
+      } ]
     }
   },
-  "namespace": [],
-  "settings": {
-    "global": {
-      "zoom": "0.45",
-      "translation": [
-        606.68,
-        20.61
-      ],
-      "paused": false
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/at#DetachedHouse",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DetachedHouse"
     },
-    "gravity": {
-      "classDistance": 200,
-      "datatypeDistance": 120
+    "id" : "6",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/at#FloorArchetype",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FloorArchetype"
     },
-    "filter": {
-      "checkBox": [
-        {
-          "id": "datatypeFilterCheckbox",
-          "checked": false
-        },
-        {
-          "id": "objectPropertyFilterCheckbox",
-          "checked": false
-        },
-        {
-          "id": "subclassFilterCheckbox",
-          "checked": false
-        },
-        {
-          "id": "disjointFilterCheckbox",
-          "checked": true
-        },
-        {
-          "id": "setoperatorFilterCheckbox",
-          "checked": false
-        }
-      ],
-      "degreeSliderValue": "0"
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#FloorArchetype11",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype11"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype12",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype12"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype31",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype31"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype10",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype10"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype32",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype32"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype15",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype15"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype16",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype16"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype13",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype13"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype14",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype14"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype30",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype30"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype08",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype08"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype09",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype09"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype06",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype06"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype28",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype28"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype07",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype07"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype29",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype29"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype22",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype22"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype01",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype01"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype23",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype23"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype20",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype20"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype21",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype21"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype04",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype04"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype26",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype26"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype05",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype05"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype27",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype27"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype02",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype02"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype24",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype24"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype03",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype03"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype25",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype25"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype19",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype19"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype17",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype17"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorArchetype18",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorArchetype18"
+      }
+    } ],
+    "id" : "8",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/at#DoorArchetype",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DoorArchetype"
     },
-    "modes": {
-      "checkBox": [
-        {
-          "id": "pickandpinModuleCheckbox",
-          "checked": false
-        },
-        {
-          "id": "nodescalingModuleCheckbox",
-          "checked": true
-        },
-        {
-          "id": "compactnotationModuleCheckbox",
-          "checked": false
-        },
-        {
-          "id": "colorexternalsModuleCheckbox",
-          "checked": true
-        }
-      ],
-      "colorSwitchState": false
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#DoorArchetype08",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype08"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype09",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype09"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype17",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype17"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype18",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype18"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype15",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype15"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype16",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype16"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype13",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype13"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype14",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype14"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype11",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype11"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype12",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype12"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype31",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype31"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype10",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype10"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype32",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype32"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype30",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype30"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype19",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype19"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype06",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype06"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype28",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype28"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype07",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype07"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype29",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype29"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype04",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype04"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype26",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype26"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype05",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype05"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype27",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype27"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype02",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype02"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype24",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype24"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype03",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype03"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype25",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype25"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype22",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype22"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype01",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype01"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype23",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype23"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype20",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype20"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#DoorArchetype21",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "DoorArchetype21"
+      }
+    } ],
+    "id" : "10",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/at#BuildingArchetype",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingArchetype"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#BuildingArchetype01",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype01"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype23",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype23"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype22",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype22"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype21",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype21"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype20",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype20"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype05",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype05"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype27",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype27"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype04",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype04"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype26",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype26"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype03",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype03"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype25",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype25"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype02",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype02"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype24",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype24"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype09",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype09"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype08",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype08"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype07",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype07"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype29",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype29"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype06",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype06"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype28",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype28"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype12",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype12"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype11",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype11"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype10",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype10"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype32",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype32"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype31",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype31"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype16",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype16"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype15",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype15"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype14",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype14"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype13",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype13"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype19",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype19"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype18",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype18"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype17",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype17"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#BuildingArchetype30",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "BuildingArchetype30"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "Building archetypes define and utilise core sets of representative construction structures and systems of a building type, formalised as exemplary buildings. BuildingArchetype os a ontrolled vocabulary (enumeration) containing named individuals (1..n)"
+    },
+    "id" : "14"
+  }, {
+    "iri" : "https://w3id.org/at#FloorLayerSet",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FloorLayerSet"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#FloorLayerSet01",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorLayerSet01"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorLayerSet05",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorLayerSet05"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorLayerSet04",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorLayerSet04"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorLayerSet03",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorLayerSet03"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#FloorLayerSet02",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "FloorLayerSet02"
+      }
+    } ],
+    "id" : "15",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://w3id.org/at#Building",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Building"
+    },
+    "id" : "1"
+  }, {
+    "iri" : "https://w3id.org/at#Door",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Door"
+    },
+    "id" : "29",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/at#ReferenceLayerSet",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReferenceLayerSet"
+    },
+    "subClasses" : [ "32", "15", "33" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/at#RenovationStatus",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RenovationStatus"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#NoRenovation",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "NoRenovation"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#MajorRenovation",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "MajorRenovation"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#MinorRenovation",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "MinorRenovation"
+      }
+    } ],
+    "id" : "36"
+  }, {
+    "iri" : "https://w3id.org/at#Material",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Material"
+    },
+    "id" : "5"
+  }, {
+    "iri" : "https://w3id.org/at#Floor",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Floor"
+    },
+    "id" : "38",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/at#Window",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Window"
+    },
+    "id" : "39",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/at#Roof",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Roof"
+    },
+    "id" : "40",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/at#TerraceHouse",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TerraceHouse"
+    },
+    "id" : "35",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/at#ReferenceMaterial",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ReferenceMaterial"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#ReferenceMaterial11",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial11"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial10",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial10"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial02",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial02"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial13",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial13"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial01",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial01"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial12",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial12"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial04",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial04"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial15",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial15"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial03",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial03"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial14",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial14"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial06",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial06"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial05",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial05"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial08",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial08"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial07",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial07"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#ReferenceMaterial09",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "ReferenceMaterial09"
+      }
+    } ],
+    "id" : "37"
+  }, {
+    "iri" : "https://w3id.org/at#WallLayerSet",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WallLayerSet"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#WallLayerSet05",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallLayerSet05"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallLayerSet04",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallLayerSet04"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallLayerSet03",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallLayerSet03"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallLayerSet02",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallLayerSet02"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallLayerSet01",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallLayerSet01"
+      }
+    } ],
+    "id" : "32",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://w3id.org/at#Wall",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wall"
+    },
+    "id" : "50",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "https://w3id.org/at#Layer",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Layer"
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "18",
+    "label" : {
+      "undefined" : "Thing"
     }
-  },
-  "class": [
-    {
-      "id": "6",
-      "type": "owl:Class"
+  }, {
+    "instances" : 0,
+    "union" : [ "42", "46", "6", "27", "35", "31" ],
+    "attributes" : [ "anonymous", "union" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://w3id.org/at#WallArchetype",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WallArchetype"
     },
-    {
-      "id": "8",
-      "type": "owl:Class"
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#WallArchetype18",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype18"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype17",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype17"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype16",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype16"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype15",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype15"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype19",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype19"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype21",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype21"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype20",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype20"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype03",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype03"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype25",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype25"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype02",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype02"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype24",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype24"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype01",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype01"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype23",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype23"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype22",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype22"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype07",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype07"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype29",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype29"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype06",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype06"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype28",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype28"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype05",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype05"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype27",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype27"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype04",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype04"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype26",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype26"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype09",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype09"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype08",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype08"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype10",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype10"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype32",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype32"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype31",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype31"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype30",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype30"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype14",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype14"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype13",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype13"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype12",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype12"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WallArchetype11",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WallArchetype11"
+      }
+    } ],
+    "id" : "49",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/at#RoofLayerSet",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RoofLayerSet"
     },
-    {
-      "id": "10",
-      "type": "owl:Class"
-    },
-    {
-      "id": "12",
-      "type": "owl:Class"
-    },
-    {
-      "id": "16",
-      "type": "owl:Class"
-    },
-    {
-      "id": "17",
-      "type": "owl:Class"
-    },
-    {
-      "id": "1",
-      "type": "owl:Class"
-    },
-    {
-      "id": "38",
-      "type": "owl:Class"
-    },
-    {
-      "id": "18",
-      "type": "owl:Class"
-    },
-    {
-      "id": "44",
-      "type": "owl:Class"
-    },
-    {
-      "id": "5",
-      "type": "owl:Class"
-    },
-    {
-      "id": "46",
-      "type": "owl:Class"
-    },
-    {
-      "id": "47",
-      "type": "owl:Class"
-    },
-    {
-      "id": "48",
-      "type": "owl:Class"
-    },
-    {
-      "id": "33",
-      "type": "owl:Class"
-    },
-    {
-      "id": "45",
-      "type": "owl:Class"
-    },
-    {
-      "id": "41",
-      "type": "owl:Class"
-    },
-    {
-      "id": "56",
-      "type": "owl:Class"
-    },
-    {
-      "id": "4",
-      "type": "owl:Class"
-    },
-    {
-      "id": "20",
-      "type": "owl:Thing"
-    },
-    {
-      "id": "65",
-      "type": "owl:Thing"
-    },
-    {
-      "id": "66",
-      "type": "owl:Class"
-    },
-    {
-      "id": "59",
-      "type": "owl:Class"
-    },
-    {
-      "id": "42",
-      "type": "owl:Class"
-    },
-    {
-      "id": "2",
-      "type": "rdfs:Datatype"
-    },
-    {
-      "id": "11",
-      "type": "owl:Class"
-    },
-    {
-      "id": "31",
-      "type": "owl:Class"
-    },
-    {
-      "id": "14",
-      "type": "owl:Class"
-    },
-    {
-      "id": "37",
-      "type": "owl:Class"
-    },
-    {
-      "id": "7",
-      "type": "owl:Class"
-    },
-    {
-      "id": "15",
-      "type": "owl:Class"
-    },
-    {
-      "id": "9",
-      "type": "owl:Class"
-    },
-    {
-      "id": "35",
-      "type": "owl:Class"
-    },
-    {
-      "id": "40",
-      "type": "owl:Class"
-    },
-    {
-      "id": "64",
-      "type": "owl:Class"
-    },
-    {
-      "id": "50",
-      "type": "owl:Class"
-    },
-    {
-      "id": "53",
-      "type": "owl:Class"
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#RoofLayerSet03",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofLayerSet03"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofLayerSet02",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofLayerSet02"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofLayerSet05",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofLayerSet05"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofLayerSet04",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofLayerSet04"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofLayerSet01",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofLayerSet01"
+      }
+    } ],
+    "id" : "33",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#gYear",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "gYear"
     }
-  ],
-  "classAttribute": [
-    {
-      "id": "6",
-      "iri": "https://w3id.org/at#FloorArchetype",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "FloorArchetype"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#FloorArchetype11",
-          "labels": {
-            "IRI-based": "FloorArchetype11"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype12",
-          "labels": {
-            "IRI-based": "FloorArchetype12"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype31",
-          "labels": {
-            "IRI-based": "FloorArchetype31"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype10",
-          "labels": {
-            "IRI-based": "FloorArchetype10"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype32",
-          "labels": {
-            "IRI-based": "FloorArchetype32"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype15",
-          "labels": {
-            "IRI-based": "FloorArchetype15"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype16",
-          "labels": {
-            "IRI-based": "FloorArchetype16"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype13",
-          "labels": {
-            "IRI-based": "FloorArchetype13"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype14",
-          "labels": {
-            "IRI-based": "FloorArchetype14"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype30",
-          "labels": {
-            "IRI-based": "FloorArchetype30"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype08",
-          "labels": {
-            "IRI-based": "FloorArchetype08"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype09",
-          "labels": {
-            "IRI-based": "FloorArchetype09"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype06",
-          "labels": {
-            "IRI-based": "FloorArchetype06"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype28",
-          "labels": {
-            "IRI-based": "FloorArchetype28"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype07",
-          "labels": {
-            "IRI-based": "FloorArchetype07"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype29",
-          "labels": {
-            "IRI-based": "FloorArchetype29"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype22",
-          "labels": {
-            "IRI-based": "FloorArchetype22"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype01",
-          "labels": {
-            "IRI-based": "FloorArchetype01"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype23",
-          "labels": {
-            "IRI-based": "FloorArchetype23"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype20",
-          "labels": {
-            "IRI-based": "FloorArchetype20"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype21",
-          "labels": {
-            "IRI-based": "FloorArchetype21"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype04",
-          "labels": {
-            "IRI-based": "FloorArchetype04"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype26",
-          "labels": {
-            "IRI-based": "FloorArchetype26"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype05",
-          "labels": {
-            "IRI-based": "FloorArchetype05"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype27",
-          "labels": {
-            "IRI-based": "FloorArchetype27"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype02",
-          "labels": {
-            "IRI-based": "FloorArchetype02"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype24",
-          "labels": {
-            "IRI-based": "FloorArchetype24"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype03",
-          "labels": {
-            "IRI-based": "FloorArchetype03"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype25",
-          "labels": {
-            "IRI-based": "FloorArchetype25"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype19",
-          "labels": {
-            "IRI-based": "FloorArchetype19"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype17",
-          "labels": {
-            "IRI-based": "FloorArchetype17"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorArchetype18",
-          "labels": {
-            "IRI-based": "FloorArchetype18"
-          }
-        }
-      ],
-      "pos": [
-        -271.95,
-        121.48
-      ]
-    },
-    {
-      "id": "8",
-      "iri": "https://w3id.org/at#DetachedHouse",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "DetachedHouse"
-      },
-      "pos": [
-        1016.98,
-        1362.19
-      ]
-    },
-    {
-      "id": "10",
-      "iri": "https://w3id.org/at#Office",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "Office"
-      },
-      "pos": [
-        674.54,
-        773.99
-      ]
-    },
-    {
-      "id": "12",
-      "iri": "https://w3id.org/at#DoorArchetype",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "DoorArchetype"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#DoorArchetype08",
-          "labels": {
-            "IRI-based": "DoorArchetype08"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype09",
-          "labels": {
-            "IRI-based": "DoorArchetype09"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype17",
-          "labels": {
-            "IRI-based": "DoorArchetype17"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype18",
-          "labels": {
-            "IRI-based": "DoorArchetype18"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype15",
-          "labels": {
-            "IRI-based": "DoorArchetype15"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype16",
-          "labels": {
-            "IRI-based": "DoorArchetype16"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype13",
-          "labels": {
-            "IRI-based": "DoorArchetype13"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype14",
-          "labels": {
-            "IRI-based": "DoorArchetype14"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype11",
-          "labels": {
-            "IRI-based": "DoorArchetype11"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype12",
-          "labels": {
-            "IRI-based": "DoorArchetype12"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype31",
-          "labels": {
-            "IRI-based": "DoorArchetype31"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype10",
-          "labels": {
-            "IRI-based": "DoorArchetype10"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype32",
-          "labels": {
-            "IRI-based": "DoorArchetype32"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype30",
-          "labels": {
-            "IRI-based": "DoorArchetype30"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype19",
-          "labels": {
-            "IRI-based": "DoorArchetype19"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype06",
-          "labels": {
-            "IRI-based": "DoorArchetype06"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype28",
-          "labels": {
-            "IRI-based": "DoorArchetype28"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype07",
-          "labels": {
-            "IRI-based": "DoorArchetype07"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype29",
-          "labels": {
-            "IRI-based": "DoorArchetype29"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype04",
-          "labels": {
-            "IRI-based": "DoorArchetype04"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype26",
-          "labels": {
-            "IRI-based": "DoorArchetype26"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype05",
-          "labels": {
-            "IRI-based": "DoorArchetype05"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype27",
-          "labels": {
-            "IRI-based": "DoorArchetype27"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype02",
-          "labels": {
-            "IRI-based": "DoorArchetype02"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype24",
-          "labels": {
-            "IRI-based": "DoorArchetype24"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype03",
-          "labels": {
-            "IRI-based": "DoorArchetype03"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype25",
-          "labels": {
-            "IRI-based": "DoorArchetype25"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype22",
-          "labels": {
-            "IRI-based": "DoorArchetype22"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype01",
-          "labels": {
-            "IRI-based": "DoorArchetype01"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype23",
-          "labels": {
-            "IRI-based": "DoorArchetype23"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype20",
-          "labels": {
-            "IRI-based": "DoorArchetype20"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#DoorArchetype21",
-          "labels": {
-            "IRI-based": "DoorArchetype21"
-          }
-        }
-      ],
-      "pos": [
-        3.61,
-        797.97
-      ]
-    },
-    {
-      "id": "16",
-      "iri": "https://w3id.org/at#BuildingArchetype",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "BuildingArchetype"
-      },
-      "comment": {
-        "undefined": "Building archetypes define and utilise core sets of representative construction structures and systems of a building type, formalised as exemplary buildings. BuildingArchetype os a ontrolled vocabulary (enumeration) containing named individuals (1..n)"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype01",
-          "labels": {
-            "IRI-based": "BuildingArchetype01"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype23",
-          "labels": {
-            "IRI-based": "BuildingArchetype23"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype22",
-          "labels": {
-            "IRI-based": "BuildingArchetype22"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype21",
-          "labels": {
-            "IRI-based": "BuildingArchetype21"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype20",
-          "labels": {
-            "IRI-based": "BuildingArchetype20"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype05",
-          "labels": {
-            "IRI-based": "BuildingArchetype05"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype27",
-          "labels": {
-            "IRI-based": "BuildingArchetype27"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype04",
-          "labels": {
-            "IRI-based": "BuildingArchetype04"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype26",
-          "labels": {
-            "IRI-based": "BuildingArchetype26"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype03",
-          "labels": {
-            "IRI-based": "BuildingArchetype03"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype25",
-          "labels": {
-            "IRI-based": "BuildingArchetype25"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype02",
-          "labels": {
-            "IRI-based": "BuildingArchetype02"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype24",
-          "labels": {
-            "IRI-based": "BuildingArchetype24"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype09",
-          "labels": {
-            "IRI-based": "BuildingArchetype09"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype08",
-          "labels": {
-            "IRI-based": "BuildingArchetype08"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype07",
-          "labels": {
-            "IRI-based": "BuildingArchetype07"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype29",
-          "labels": {
-            "IRI-based": "BuildingArchetype29"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype06",
-          "labels": {
-            "IRI-based": "BuildingArchetype06"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype28",
-          "labels": {
-            "IRI-based": "BuildingArchetype28"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype12",
-          "labels": {
-            "IRI-based": "BuildingArchetype12"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype11",
-          "labels": {
-            "IRI-based": "BuildingArchetype11"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype10",
-          "labels": {
-            "IRI-based": "BuildingArchetype10"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype32",
-          "labels": {
-            "IRI-based": "BuildingArchetype32"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype31",
-          "labels": {
-            "IRI-based": "BuildingArchetype31"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype16",
-          "labels": {
-            "IRI-based": "BuildingArchetype16"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype15",
-          "labels": {
-            "IRI-based": "BuildingArchetype15"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype14",
-          "labels": {
-            "IRI-based": "BuildingArchetype14"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype13",
-          "labels": {
-            "IRI-based": "BuildingArchetype13"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype19",
-          "labels": {
-            "IRI-based": "BuildingArchetype19"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype18",
-          "labels": {
-            "IRI-based": "BuildingArchetype18"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype17",
-          "labels": {
-            "IRI-based": "BuildingArchetype17"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#BuildingArchetype30",
-          "labels": {
-            "IRI-based": "BuildingArchetype30"
-          }
-        }
-      ],
-      "pos": [
-        342.1,
-        207.73
-      ]
-    },
-    {
-      "id": "17",
-      "iri": "https://w3id.org/at#FloorLayerSet",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "FloorLayerSet"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#FloorLayerSet01",
-          "labels": {
-            "IRI-based": "FloorLayerSet01"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorLayerSet05",
-          "labels": {
-            "IRI-based": "FloorLayerSet05"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorLayerSet04",
-          "labels": {
-            "IRI-based": "FloorLayerSet04"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorLayerSet03",
-          "labels": {
-            "IRI-based": "FloorLayerSet03"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#FloorLayerSet02",
-          "labels": {
-            "IRI-based": "FloorLayerSet02"
-          }
-        }
-      ],
-      "pos": [
-        267.58,
-        1117.67
-      ]
-    },
-    {
-      "id": "1",
-      "iri": "https://w3id.org/at#Building",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "Building"
-      },
-      "pos": [
-        764.76,
-        147.33
-      ]
-    },
-    {
-      "id": "38",
-      "iri": "https://w3id.org/at#Door",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "Door"
-      },
-      "pos": [
-        1592.18,
-        211.5
-      ]
-    },
-    {
-      "id": "18",
-      "iri": "https://w3id.org/at#ReferenceLayerSet",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "ReferenceLayerSet"
-      },
-      "pos": [
-        -34.03,
-        885.76
-      ]
-    },
-    {
-      "id": "44",
-      "iri": "https://w3id.org/at#RenovationStatus",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "RenovationStatus"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#NoRenovation",
-          "labels": {
-            "IRI-based": "NoRenovation"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#MajorRenovation",
-          "labels": {
-            "IRI-based": "MajorRenovation"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#MinorRenovation",
-          "labels": {
-            "IRI-based": "MinorRenovation"
-          }
-        }
-      ],
-      "pos": [
-        980.58,
-        -168.04
-      ]
-    },
-    {
-      "id": "5",
-      "iri": "https://w3id.org/at#Material",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "Material"
-      },
-      "pos": [
-        1312.16,
-        -245.22
-      ]
-    },
-    {
-      "id": "46",
-      "iri": "https://w3id.org/at#Floor",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "Floor"
-      },
-      "pos": [
-        2115.44,
-        546.39
-      ]
-    },
-    {
-      "id": "47",
-      "iri": "https://w3id.org/at#Window",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "Window"
-      },
-      "pos": [
-        1901,
-        575.6
-      ]
-    },
-    {
-      "id": "48",
-      "iri": "https://w3id.org/at#Roof",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "Roof"
-      },
-      "pos": [
-        2100.76,
-        -96.38
-      ]
-    },
-    {
-      "id": "33",
-      "iri": "https://w3id.org/at#TerraceHouse",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "TerraceHouse"
-      },
-      "pos": [
-        1527.49,
-        917.33
-      ]
-    },
-    {
-      "id": "45",
-      "iri": "https://w3id.org/at#ReferenceMaterial",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "ReferenceMaterial"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial11",
-          "labels": {
-            "IRI-based": "ReferenceMaterial11"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial10",
-          "labels": {
-            "IRI-based": "ReferenceMaterial10"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial02",
-          "labels": {
-            "IRI-based": "ReferenceMaterial02"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial13",
-          "labels": {
-            "IRI-based": "ReferenceMaterial13"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial01",
-          "labels": {
-            "IRI-based": "ReferenceMaterial01"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial12",
-          "labels": {
-            "IRI-based": "ReferenceMaterial12"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial04",
-          "labels": {
-            "IRI-based": "ReferenceMaterial04"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial15",
-          "labels": {
-            "IRI-based": "ReferenceMaterial15"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial03",
-          "labels": {
-            "IRI-based": "ReferenceMaterial03"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial14",
-          "labels": {
-            "IRI-based": "ReferenceMaterial14"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial06",
-          "labels": {
-            "IRI-based": "ReferenceMaterial06"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial05",
-          "labels": {
-            "IRI-based": "ReferenceMaterial05"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial08",
-          "labels": {
-            "IRI-based": "ReferenceMaterial08"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial07",
-          "labels": {
-            "IRI-based": "ReferenceMaterial07"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#ReferenceMaterial09",
-          "labels": {
-            "IRI-based": "ReferenceMaterial09"
-          }
-        }
-      ],
-      "pos": [
-        1243.79,
-        -621.68
-      ]
-    },
-    {
-      "id": "41",
-      "iri": "https://w3id.org/at#WallLayerSet",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "WallLayerSet"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#WallLayerSet05",
-          "labels": {
-            "IRI-based": "WallLayerSet05"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallLayerSet04",
-          "labels": {
-            "IRI-based": "WallLayerSet04"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallLayerSet03",
-          "labels": {
-            "IRI-based": "WallLayerSet03"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallLayerSet02",
-          "labels": {
-            "IRI-based": "WallLayerSet02"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallLayerSet01",
-          "labels": {
-            "IRI-based": "WallLayerSet01"
-          }
-        }
-      ],
-      "pos": [
-        4.91,
-        1266.11
-      ]
-    },
-    {
-      "id": "56",
-      "iri": "https://w3id.org/at#Wall",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "Wall"
-      },
-      "pos": [
-        2274.85,
-        353.95
-      ]
-    },
-    {
-      "id": "4",
-      "iri": "https://w3id.org/at#Layer",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "Layer"
-      },
-      "pos": [
-        1583.12,
-        -447.96
-      ]
-    },
-    {
-      "id": "20",
-      "iri": "http://www.w3.org/2002/07/owl#Thing",
-      "baseIri": "http://owl2vowl.de",
-      "label": {
-        "undefined": "Thing"
-      },
-      "pos": [
-        503.99,
-        1808.79
-      ]
-    },
-    {
-      "id": "65",
-      "iri": "http://www.w3.org/2002/07/owl#Thing",
-      "baseIri": "http://owl2vowl.de",
-      "label": {
-        "undefined": "Thing"
-      },
-      "pos": [
-        782.84,
-        -218.89
-      ]
-    },
-    {
-      "id": "66",
-      "attributes": [
-        "anonymous",
-        "union"
-      ],
-      "pos": [
-        1451.57,
-        1254.2
-      ]
-    },
-    {
-      "id": "59",
-      "iri": "https://w3id.org/at#WallArchetype",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "WallArchetype"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#WallArchetype18",
-          "labels": {
-            "IRI-based": "WallArchetype18"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype17",
-          "labels": {
-            "IRI-based": "WallArchetype17"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype16",
-          "labels": {
-            "IRI-based": "WallArchetype16"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype15",
-          "labels": {
-            "IRI-based": "WallArchetype15"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype19",
-          "labels": {
-            "IRI-based": "WallArchetype19"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype21",
-          "labels": {
-            "IRI-based": "WallArchetype21"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype20",
-          "labels": {
-            "IRI-based": "WallArchetype20"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype03",
-          "labels": {
-            "IRI-based": "WallArchetype03"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype25",
-          "labels": {
-            "IRI-based": "WallArchetype25"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype02",
-          "labels": {
-            "IRI-based": "WallArchetype02"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype24",
-          "labels": {
-            "IRI-based": "WallArchetype24"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype01",
-          "labels": {
-            "IRI-based": "WallArchetype01"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype23",
-          "labels": {
-            "IRI-based": "WallArchetype23"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype22",
-          "labels": {
-            "IRI-based": "WallArchetype22"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype07",
-          "labels": {
-            "IRI-based": "WallArchetype07"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype29",
-          "labels": {
-            "IRI-based": "WallArchetype29"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype06",
-          "labels": {
-            "IRI-based": "WallArchetype06"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype28",
-          "labels": {
-            "IRI-based": "WallArchetype28"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype05",
-          "labels": {
-            "IRI-based": "WallArchetype05"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype27",
-          "labels": {
-            "IRI-based": "WallArchetype27"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype04",
-          "labels": {
-            "IRI-based": "WallArchetype04"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype26",
-          "labels": {
-            "IRI-based": "WallArchetype26"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype09",
-          "labels": {
-            "IRI-based": "WallArchetype09"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype08",
-          "labels": {
-            "IRI-based": "WallArchetype08"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype10",
-          "labels": {
-            "IRI-based": "WallArchetype10"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype32",
-          "labels": {
-            "IRI-based": "WallArchetype32"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype31",
-          "labels": {
-            "IRI-based": "WallArchetype31"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype30",
-          "labels": {
-            "IRI-based": "WallArchetype30"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype14",
-          "labels": {
-            "IRI-based": "WallArchetype14"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype13",
-          "labels": {
-            "IRI-based": "WallArchetype13"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype12",
-          "labels": {
-            "IRI-based": "WallArchetype12"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WallArchetype11",
-          "labels": {
-            "IRI-based": "WallArchetype11"
-          }
-        }
-      ],
-      "pos": [
-        -35.83,
-        24.63
-      ]
-    },
-    {
-      "id": "42",
-      "iri": "https://w3id.org/at#RoofLayerSet",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "RoofLayerSet"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#RoofLayerSet03",
-          "labels": {
-            "IRI-based": "RoofLayerSet03"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofLayerSet02",
-          "labels": {
-            "IRI-based": "RoofLayerSet02"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofLayerSet05",
-          "labels": {
-            "IRI-based": "RoofLayerSet05"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofLayerSet04",
-          "labels": {
-            "IRI-based": "RoofLayerSet04"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofLayerSet01",
-          "labels": {
-            "IRI-based": "RoofLayerSet01"
-          }
-        }
-      ],
-      "pos": [
-        311.03,
-        744.72
-      ]
-    },
-    {
-      "id": "2",
-      "iri": "http://www.w3.org/2001/XMLSchema#gYear",
-      "baseIri": "http://www.w3.org/2001/XMLSchema",
-      "label": {
-        "IRI-based": "gYear"
-      },
-      "attributes": [
-        "datatype"
-      ],
-      "pos": [
-        559.39,
-        -15.33
-      ]
-    },
-    {
-      "id": "11",
-      "iri": "https://w3id.org/at#BuildingType",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "BuildingType"
-      },
-      "comment": {
-        "undefined": "A building type is a categorical classification of buildings based on the occupation type and other buiding-based characteristics."
-      },
-      "pos": [
-        956.27,
-        575.99
-      ]
-    },
-    {
-      "id": "31",
-      "iri": "https://w3id.org/at#MaisonetteHouse",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "MaisonetteHouse"
-      },
-      "pos": [
-        1260.07,
-        1500.24
-      ]
-    },
-    {
-      "id": "14",
-      "iri": "https://w3id.org/at#BuildingElement",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "BuildingElement"
-      },
-      "pos": [
-        1944.96,
-        217.37
-      ]
-    },
-    {
-      "id": "37",
-      "iri": "https://w3id.org/at#ApartmentHouse",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "ApartmentHouse"
-      },
-      "pos": [
-        1438.89,
-        855.38
-      ]
-    },
-    {
-      "id": "7",
-      "iri": "https://w3id.org/at#ElementArchetype",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "ElementArchetype"
-      },
-      "pos": [
-        -21.28,
-        430.67
-      ]
-    },
-    {
-      "id": "15",
-      "iri": "https://w3id.org/at#LayerSet",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "LayerSet"
-      },
-      "pos": [
-        1763.7,
-        -125.8
-      ]
-    },
-    {
-      "id": "9",
-      "iri": "https://w3id.org/at#Residential",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "Residential"
-      },
-      "pos": [
-        1130.89,
-        1040.43
-      ]
-    },
-    {
-      "id": "35",
-      "iri": "https://w3id.org/at#GalleryHouse",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "GalleryHouse"
-      },
-      "pos": [
-        1086.04,
-        1425.25
-      ]
-    },
-    {
-      "id": "40",
-      "iri": "https://w3id.org/at#SemiDetachedHouse",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "SemiDetachedHouse"
-      },
-      "pos": [
-        1161.67,
-        1470.8
-      ]
-    },
-    {
-      "id": "64",
-      "iri": "https://w3id.org/at#ConstructionPeriod",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "ConstructionPeriod"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#1991",
-          "labels": {
-            "IRI-based": "1991"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#2014",
-          "labels": {
-            "IRI-based": "2014"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#1946",
-          "labels": {
-            "IRI-based": "1946"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#2005",
-          "labels": {
-            "IRI-based": "2005"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#1974",
-          "labels": {
-            "IRI-based": "1974"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#2018",
-          "labels": {
-            "IRI-based": "2018"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#1964",
-          "labels": {
-            "IRI-based": "1964"
-          }
-        }
-      ],
-      "pos": [
-        589.99,
-        -227.28
-      ]
-    },
-    {
-      "id": "50",
-      "iri": "https://w3id.org/at#RoofArchetype",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "RoofArchetype"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#RoofArchetype19",
-          "labels": {
-            "IRI-based": "RoofArchetype19"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype17",
-          "labels": {
-            "IRI-based": "RoofArchetype17"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype18",
-          "labels": {
-            "IRI-based": "RoofArchetype18"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype11",
-          "labels": {
-            "IRI-based": "RoofArchetype11"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype12",
-          "labels": {
-            "IRI-based": "RoofArchetype12"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype31",
-          "labels": {
-            "IRI-based": "RoofArchetype31"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype10",
-          "labels": {
-            "IRI-based": "RoofArchetype10"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype32",
-          "labels": {
-            "IRI-based": "RoofArchetype32"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype15",
-          "labels": {
-            "IRI-based": "RoofArchetype15"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype16",
-          "labels": {
-            "IRI-based": "RoofArchetype16"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype13",
-          "labels": {
-            "IRI-based": "RoofArchetype13"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype14",
-          "labels": {
-            "IRI-based": "RoofArchetype14"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype30",
-          "labels": {
-            "IRI-based": "RoofArchetype30"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype08",
-          "labels": {
-            "IRI-based": "RoofArchetype08"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype09",
-          "labels": {
-            "IRI-based": "RoofArchetype09"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype06",
-          "labels": {
-            "IRI-based": "RoofArchetype06"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype28",
-          "labels": {
-            "IRI-based": "RoofArchetype28"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype07",
-          "labels": {
-            "IRI-based": "RoofArchetype07"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype29",
-          "labels": {
-            "IRI-based": "RoofArchetype29"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype22",
-          "labels": {
-            "IRI-based": "RoofArchetype22"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype01",
-          "labels": {
-            "IRI-based": "RoofArchetype01"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype23",
-          "labels": {
-            "IRI-based": "RoofArchetype23"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype20",
-          "labels": {
-            "IRI-based": "RoofArchetype20"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype21",
-          "labels": {
-            "IRI-based": "RoofArchetype21"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype04",
-          "labels": {
-            "IRI-based": "RoofArchetype04"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype26",
-          "labels": {
-            "IRI-based": "RoofArchetype26"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype05",
-          "labels": {
-            "IRI-based": "RoofArchetype05"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype27",
-          "labels": {
-            "IRI-based": "RoofArchetype27"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype02",
-          "labels": {
-            "IRI-based": "RoofArchetype02"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype24",
-          "labels": {
-            "IRI-based": "RoofArchetype24"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype03",
-          "labels": {
-            "IRI-based": "RoofArchetype03"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#RoofArchetype25",
-          "labels": {
-            "IRI-based": "RoofArchetype25"
-          }
-        }
-      ],
-      "pos": [
-        -411.56,
-        468.21
-      ]
-    },
-    {
-      "id": "53",
-      "iri": "https://w3id.org/at#WindowArchetype",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "WindowArchetype"
-      },
-      "individuals": [
-        {
-          "iri": "https://w3id.org/at#WindowArchetype18",
-          "labels": {
-            "IRI-based": "WindowArchetype18"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype17",
-          "labels": {
-            "IRI-based": "WindowArchetype17"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype19",
-          "labels": {
-            "IRI-based": "WindowArchetype19"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype14",
-          "labels": {
-            "IRI-based": "WindowArchetype14"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype13",
-          "labels": {
-            "IRI-based": "WindowArchetype13"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype16",
-          "labels": {
-            "IRI-based": "WindowArchetype16"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype15",
-          "labels": {
-            "IRI-based": "WindowArchetype15"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype10",
-          "labels": {
-            "IRI-based": "WindowArchetype10"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype32",
-          "labels": {
-            "IRI-based": "WindowArchetype32"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype31",
-          "labels": {
-            "IRI-based": "WindowArchetype31"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype12",
-          "labels": {
-            "IRI-based": "WindowArchetype12"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype11",
-          "labels": {
-            "IRI-based": "WindowArchetype11"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype30",
-          "labels": {
-            "IRI-based": "WindowArchetype30"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype07",
-          "labels": {
-            "IRI-based": "WindowArchetype07"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype29",
-          "labels": {
-            "IRI-based": "WindowArchetype29"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype06",
-          "labels": {
-            "IRI-based": "WindowArchetype06"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype28",
-          "labels": {
-            "IRI-based": "WindowArchetype28"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype09",
-          "labels": {
-            "IRI-based": "WindowArchetype09"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype08",
-          "labels": {
-            "IRI-based": "WindowArchetype08"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype03",
-          "labels": {
-            "IRI-based": "WindowArchetype03"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype25",
-          "labels": {
-            "IRI-based": "WindowArchetype25"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype02",
-          "labels": {
-            "IRI-based": "WindowArchetype02"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype24",
-          "labels": {
-            "IRI-based": "WindowArchetype24"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype05",
-          "labels": {
-            "IRI-based": "WindowArchetype05"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype27",
-          "labels": {
-            "IRI-based": "WindowArchetype27"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype04",
-          "labels": {
-            "IRI-based": "WindowArchetype04"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype26",
-          "labels": {
-            "IRI-based": "WindowArchetype26"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype21",
-          "labels": {
-            "IRI-based": "WindowArchetype21"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype20",
-          "labels": {
-            "IRI-based": "WindowArchetype20"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype01",
-          "labels": {
-            "IRI-based": "WindowArchetype01"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype23",
-          "labels": {
-            "IRI-based": "WindowArchetype23"
-          }
-        },
-        {
-          "iri": "https://w3id.org/at#WindowArchetype22",
-          "labels": {
-            "IRI-based": "WindowArchetype22"
-          }
-        }
-      ],
-      "pos": [
-        -308.16,
-        710.19
-      ]
-    }
-  ],
-  "property": [
-    {
-      "id": "0",
-      "type": "owl:DatatypeProperty"
-    },
-    {
-      "id": "3",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "13",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "19",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "29",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "30",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "32",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "34",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "36",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "39",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "43",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "25",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "26",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "49",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "51",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "52",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "54",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "55",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "57",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "58",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "60",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "61",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "27",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "63",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "21",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "62",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "67",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "68",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "69",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "70",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "71",
-      "type": "rdfs:subClassOf"
-    },
-    {
-      "id": "22",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "72",
-      "type": "owl:disjointWith"
-    },
-    {
-      "id": "28",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "23",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "24",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "73",
-      "type": "owl:ObjectProperty"
-    },
-    {
-      "id": "GENERATED-UNION-66-37-0",
-      "type": "setOperatorProperty"
-    },
-    {
-      "id": "GENERATED-UNION-66-35-1",
-      "type": "setOperatorProperty"
-    },
-    {
-      "id": "GENERATED-UNION-66-8-2",
-      "type": "setOperatorProperty"
-    },
-    {
-      "id": "GENERATED-UNION-66-40-3",
-      "type": "setOperatorProperty"
-    },
-    {
-      "id": "GENERATED-UNION-66-33-4",
-      "type": "setOperatorProperty"
-    },
-    {
-      "id": "GENERATED-UNION-66-31-5",
-      "type": "setOperatorProperty"
-    }
-  ],
-  "propertyAttribute": [
-    {
-      "id": "0",
-      "iri": "https://w3id.org/at#isConstructedIn",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "isConstructedIn"
-      },
-      "attributes": [
-        "datatype"
-      ],
-      "domain": "1",
-      "range": "2",
-      "pos": [
-        648.79,
-        55.48
-      ]
-    },
-    {
-      "id": "3",
-      "iri": "https://w3id.org/at#hasMaterial",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "hasMaterial"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "4",
-      "range": "5",
-      "pos": [
-        1447.64,
-        -346.59
-      ]
-    },
-    {
-      "id": "13",
-      "iri": "https://w3id.org/at#hasLayerSet",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "hasLayerSet"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "14",
-      "range": "15",
-      "pos": [
-        1854.33,
-        45.79
-      ]
-    },
-    {
-      "id": "19",
-      "iri": "http://www.w3.org/2002/07/owl#topObjectProperty",
-      "baseIri": "http://www.w3.org/2002/07/owl",
-      "label": {
-        "IRI-based": "topObjectProperty"
-      },
-      "attributes": [
-        "object",
-        "external"
-      ],
-      "domain": "20",
-      "range": "20",
-      "subproperty": [
-        "21",
-        "22",
-        "23",
-        "24",
-        "25",
-        "26",
-        "27",
-        "28"
-      ],
-      "pos": [
-        378.98,
-        1719.36
-      ]
-    },
-    {
-      "id": "29",
-      "iri": "https://w3id.org/at#hasElementArchetype",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "hasElementArchetype"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "16",
-      "range": "7",
-      "pos": [
-        146.36,
-        327.82
-      ]
-    },
-    {
-      "id": "30",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "31",
-      "range": "9",
-      "pos": [
-        1195.48,
-        1270.34
-      ]
-    },
-    {
-      "id": "32",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "33",
-      "range": "9",
-      "pos": [
-        1329.19,
-        978.88
-      ]
-    },
-    {
-      "id": "34",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "35",
-      "range": "9",
-      "pos": [
-        1108.47,
-        1232.84
-      ]
-    },
-    {
-      "id": "36",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "37",
-      "range": "9",
-      "pos": [
-        1284.89,
-        947.91
-      ]
-    },
-    {
-      "id": "39",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "40",
-      "range": "9",
-      "pos": [
-        1146.28,
-        1255.62
-      ]
-    },
-    {
-      "id": "43",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "8",
-      "range": "9",
-      "pos": [
-        1073.94,
-        1201.31
-      ]
-    },
-    {
-      "id": "25",
-      "iri": "https://w3id.org/at#hasReferenceMaterial",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "hasReferenceMaterial"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "4",
-      "range": "45",
-      "superproperty": [
-        "19"
-      ],
-      "pos": [
-        1425.55,
-        -528.63
-      ]
-    },
-    {
-      "id": "26",
-      "iri": "https://w3id.org/at#hasLayerDirect",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "hasLayerDirect"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "20",
-      "range": "20",
-      "superproperty": [
-        "19"
-      ],
-      "pos": [
-        644.46,
-        1871.75
-      ]
-    },
-    {
-      "id": "49",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "50",
-      "range": "7",
-      "pos": [
-        -200.01,
-        447.86
-      ]
-    },
-    {
-      "id": "51",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "12",
-      "range": "7",
-      "pos": [
-        -9.95,
-        597.88
-      ]
-    },
-    {
-      "id": "52",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "53",
-      "range": "7",
-      "pos": [
-        -152.91,
-        558.92
-      ]
-    },
-    {
-      "id": "54",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "38",
-      "range": "14",
-      "pos": [
-        1768.57,
-        214.44
-      ]
-    },
-    {
-      "id": "55",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "56",
-      "range": "14",
-      "pos": [
-        2109.9,
-        285.66
-      ]
-    },
-    {
-      "id": "57",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "6",
-      "range": "7",
-      "pos": [
-        -136.23,
-        288.88
-      ]
-    },
-    {
-      "id": "58",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "59",
-      "range": "7",
-      "pos": [
-        -27.96,
-        244.13
-      ]
-    },
-    {
-      "id": "60",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "46",
-      "range": "14",
-      "pos": [
-        2030.2,
-        381.88
-      ]
-    },
-    {
-      "id": "61",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "48",
-      "range": "14",
-      "pos": [
-        2022.86,
-        60.5
-      ]
-    },
-    {
-      "id": "27",
-      "iri": "https://w3id.org/at#hasBuildingType",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "hasBuildingType"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "1",
-      "range": "11",
-      "subproperty": [
-        "62"
-      ],
-      "superproperty": [
-        "19"
-      ],
-      "pos": [
-        860.51,
-        361.66
-      ]
-    },
-    {
-      "id": "63",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "47",
-      "range": "14",
-      "pos": [
-        1922.98,
-        396.48
-      ]
-    },
-    {
-      "id": "21",
-      "iri": "https://w3id.org/at#constructionPeriod",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "constructionPeriod"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "1",
-      "range": "64",
-      "superproperty": [
-        "19"
-      ],
-      "pos": [
-        681.95,
-        -30.17
-      ]
-    },
-    {
-      "id": "62",
-      "iri": "https://w3id.org/at#hasResidentialType",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "hasResidentialType"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "9",
-      "range": "66",
-      "superproperty": [
-        "27"
-      ],
-      "pos": [
-        1291.23,
-        1147.31
-      ]
-    },
-    {
-      "id": "67",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "41",
-      "range": "18",
-      "pos": [
-        -15.54,
-        1066.32
-      ]
-    },
-    {
-      "id": "68",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "17",
-      "range": "18",
-      "pos": [
-        109.11,
-        995.82
-      ]
-    },
-    {
-      "id": "69",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "42",
-      "range": "18",
-      "pos": [
-        129.55,
-        818.9
-      ]
-    },
-    {
-      "id": "70",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "9",
-      "range": "11",
-      "pos": [
-        1043.58,
-        808.21
-      ]
-    },
-    {
-      "id": "71",
-      "label": "Subclass of",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "10",
-      "range": "11",
-      "pos": [
-        815.4,
-        674.99
-      ]
-    },
-    {
-      "id": "22",
-      "iri": "https://w3id.org/at#hasLayer",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "hasLayer"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "15",
-      "range": "4",
-      "superproperty": [
-        "19"
-      ],
-      "pos": [
-        1673.41,
-        -286.88
-      ]
-    },
-    {
-      "id": "72",
-      "label": "Disjoint With",
-      "attributes": [
-        "anonymous",
-        "object"
-      ],
-      "domain": "6",
-      "range": "59"
-    },
-    {
-      "id": "28",
-      "iri": "https://w3id.org/at#isType",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "isType"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "1",
-      "range": "65",
-      "superproperty": [
-        "19"
-      ],
-      "pos": [
-        774.29,
-        -45.76
-      ]
-    },
-    {
-      "id": "23",
-      "iri": "https://w3id.org/at#hasBuildingArchetype",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "hasBuildingArchetype"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "1",
-      "range": "16",
-      "superproperty": [
-        "19"
-      ],
-      "pos": [
-        569.75,
-        175.2
-      ]
-    },
-    {
-      "id": "24",
-      "iri": "https://w3id.org/at#hasReferenceLayerSet",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "hasReferenceLayerSet"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "7",
-      "range": "18",
-      "superproperty": [
-        "19"
-      ],
-      "pos": [
-        -27.65,
-        658.22
-      ]
-    },
-    {
-      "id": "73",
-      "iri": "https://w3id.org/at#hasRenovationStatus",
-      "baseIri": "https://w3id.org/at",
-      "label": {
-        "IRI-based": "hasRenovationStatus"
-      },
-      "attributes": [
-        "object"
-      ],
-      "domain": "1",
-      "range": "44",
-      "pos": [
-        868.13,
-        -3.72
-      ]
-    },
-    {
-      "id": "GENERATED-UNION-66-37-0",
-      "domain": "66",
-      "range": "37",
-      "pos": [
-        1445.23,
-        1054.79
-      ]
-    },
-    {
-      "id": "GENERATED-UNION-66-35-1",
-      "domain": "66",
-      "range": "35",
-      "pos": [
-        1268.81,
-        1339.73
-      ]
-    },
-    {
-      "id": "GENERATED-UNION-66-8-2",
-      "domain": "66",
-      "range": "8",
-      "pos": [
-        1234.28,
-        1308.19
-      ]
-    },
-    {
-      "id": "GENERATED-UNION-66-40-3",
-      "domain": "66",
-      "range": "40",
-      "pos": [
-        1306.62,
-        1362.5
-      ]
-    },
-    {
-      "id": "GENERATED-UNION-66-33-4",
-      "domain": "66",
-      "range": "33",
-      "pos": [
-        1489.53,
-        1085.77
-      ]
-    },
-    {
-      "id": "GENERATED-UNION-66-31-5",
-      "domain": "66",
-      "range": "31",
-      "pos": [
-        1355.82,
-        1377.22
-      ]
-    }
-  ]
+  }, {
+    "iri" : "https://w3id.org/at#BuildingType",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingType"
+    },
+    "subClasses" : [ "7" ],
+    "comment" : {
+      "undefined" : "A building type is a categorical classification of buildings based on the occupation type and other buiding-based characteristics."
+    },
+    "id" : "56"
+  }, {
+    "iri" : "https://w3id.org/at#MaisonetteHouse",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaisonetteHouse"
+    },
+    "id" : "31",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/at#ApartmentHouse",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ApartmentHouse"
+    },
+    "id" : "42",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/at#BuildingElement",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingElement"
+    },
+    "subClasses" : [ "38", "39", "50", "40", "29" ],
+    "id" : "12"
+  }, {
+    "iri" : "https://w3id.org/at#ElementArchetype",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElementArchetype"
+    },
+    "subClasses" : [ "49", "8", "10", "52", "44" ],
+    "id" : "9"
+  }, {
+    "iri" : "https://w3id.org/at#LayerSet",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LayerSet"
+    },
+    "id" : "13"
+  }, {
+    "iri" : "https://w3id.org/at#Residential",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Residential"
+    },
+    "subClasses" : [ "42", "46", "6", "27", "35", "31" ],
+    "id" : "7",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/at#GalleryHouse",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GalleryHouse"
+    },
+    "id" : "46",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/at#SemiDetachedHouse",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SemiDetachedHouse"
+    },
+    "id" : "27",
+    "superClasses" : [ "7" ]
+  }, {
+    "iri" : "https://w3id.org/at#ConstructionPeriod",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConstructionPeriod"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#1991",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "1991"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#2014",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "2014"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#1946",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "1946"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#2005",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "2005"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#1974",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "1974"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#2018",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "2018"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#1964",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "1964"
+      }
+    } ],
+    "id" : "59"
+  }, {
+    "iri" : "https://w3id.org/at#WindowArchetype",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WindowArchetype"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#WindowArchetype18",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype18"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype17",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype17"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype19",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype19"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype14",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype14"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype13",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype13"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype16",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype16"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype15",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype15"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype10",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype10"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype32",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype32"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype31",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype31"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype12",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype12"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype11",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype11"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype30",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype30"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype07",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype07"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype29",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype29"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype06",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype06"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype28",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype28"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype09",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype09"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype08",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype08"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype03",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype03"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype25",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype25"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype02",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype02"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype24",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype24"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype05",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype05"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype27",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype27"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype04",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype04"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype26",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype26"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype21",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype21"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype20",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype20"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype01",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype01"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype23",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype23"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#WindowArchetype22",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "WindowArchetype22"
+      }
+    } ],
+    "id" : "44",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://w3id.org/at#RoofArchetype",
+    "baseIri" : "https://w3id.org/at",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RoofArchetype"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/at#RoofArchetype19",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype19"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype17",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype17"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype18",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype18"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype11",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype11"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype12",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype12"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype31",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype31"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype10",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype10"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype32",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype32"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype15",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype15"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype16",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype16"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype13",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype13"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype14",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype14"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype30",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype30"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype08",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype08"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype09",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype09"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype06",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype06"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype28",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype28"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype07",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype07"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype29",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype29"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype22",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype22"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype01",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype01"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype23",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype23"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype20",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype20"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype21",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype21"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype04",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype04"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype26",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype26"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype05",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype05"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype27",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype27"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype02",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype02"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype24",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype24"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype03",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype03"
+      }
+    }, {
+      "iri" : "https://w3id.org/at#RoofArchetype25",
+      "baseIri" : "https://w3id.org/at",
+      "labels" : {
+        "IRI-based" : "RoofArchetype25"
+      }
+    } ],
+    "id" : "52",
+    "superClasses" : [ "9" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "57",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "62",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "69",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://w3id.org/at#isConstructedIn",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "isConstructedIn"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://w3id.org/at#hasMaterial",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasMaterial"
+    },
+    "domain" : "4",
+    "attributes" : [ "object" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://w3id.org/at#hasLayerSet",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "hasLayerSet"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "18",
+    "subproperty" : [ "19", "20", "21", "22", "23", "24" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "17"
+  }, {
+    "iri" : "https://w3id.org/at#hasElementArchetype",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasElementArchetype"
+    },
+    "domain" : "12",
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "range" : "7",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "26"
+  }, {
+    "range" : "7",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "7",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "7",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "iri" : "https://w3id.org/at#hasReferenceMaterial",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "hasReferenceMaterial"
+    },
+    "superproperty" : [ "17" ],
+    "domain" : "5",
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "range" : "7",
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "41"
+  }, {
+    "range" : "9",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "43"
+  }, {
+    "range" : "7",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "45"
+  }, {
+    "range" : "9",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "9",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "48"
+  }, {
+    "range" : "9",
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "9",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "range" : "12",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "range" : "12",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "55"
+  }, {
+    "iri" : "https://w3id.org/at#hasBuildingType",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "hasBuildingType"
+    },
+    "superproperty" : [ "17" ],
+    "domain" : "1",
+    "subproperty" : [ "57" ],
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "range" : "12",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "58"
+  }, {
+    "iri" : "https://w3id.org/at#constructionPeriod",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "constructionPeriod"
+    },
+    "superproperty" : [ "17" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "19"
+  }, {
+    "iri" : "https://w3id.org/at#hasElement",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasElement"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "60"
+  }, {
+    "iri" : "https://w3id.org/at#hasResidentialType",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "61",
+    "label" : {
+      "IRI-based" : "hasResidentialType"
+    },
+    "superproperty" : [ "24" ],
+    "domain" : "7",
+    "attributes" : [ "object" ],
+    "id" : "57"
+  }, {
+    "range" : "16",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "62"
+  }, {
+    "range" : "16",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "range" : "16",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "56",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "12",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "66"
+  }, {
+    "range" : "12",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "iri" : "https://w3id.org/at#hasLayer",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasLayer"
+    },
+    "superproperty" : [ "17" ],
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "20"
+  }, {
+    "range" : "8",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "68"
+  }, {
+    "iri" : "https://w3id.org/at#hasBuildingArchetype",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "hasBuildingArchetype"
+    },
+    "superproperty" : [ "17" ],
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "https://w3id.org/at#hasReferenceLayerSet",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "16",
+    "label" : {
+      "IRI-based" : "hasReferenceLayerSet"
+    },
+    "superproperty" : [ "17" ],
+    "domain" : "13",
+    "attributes" : [ "object" ],
+    "id" : "22"
+  }, {
+    "iri" : "https://w3id.org/at#hasRenovationStatus",
+    "baseIri" : "https://w3id.org/at",
+    "range" : "36",
+    "label" : {
+      "IRI-based" : "hasRenovationStatus"
+    },
+    "domain" : "1",
+    "attributes" : [ "object" ],
+    "id" : "69"
+  } ]
 }
